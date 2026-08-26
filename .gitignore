@@ -1,0 +1,21 @@
+# Python virtual environments - reconstructable from requirements.txt,
+# no need to commit hundreds of MB of installed packages
+venv/
+**/venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Jupyter notebook checkpoint files
+.ipynb_checkpoints/
+
+# Large downloaded source datasets (Olist + UCI) - these are large,
+# publicly available files already documented with download links in
+# README_PHASE1.md. No need to duplicate someone else's public dataset
+# into this repo.
+data_generation/tier1_raw/
+
+# OS-generated files
+.DS_Store
+Thumbs.db

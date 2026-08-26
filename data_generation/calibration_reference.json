@@ -1,0 +1,34 @@
+{
+  "_readme": "These are PLACEHOLDER calibration anchors used only if generate_synthetic_data.py cannot find real Tier 1 files in tier1_raw/. They are rough, order-of-magnitude estimates, NOT measured from real data. Once Tier 1 files are present, the script recomputes 'avg_order_value_local', 'delivery_days_mean', and 'delivery_days_std' directly from Olist/UCI and those override everything below. Document in DATA_DICTIONARY.md which values were placeholder-derived vs. calibrated-from-real-data, and on what date the recalibration happened.",
+
+  "US": {
+    "currency": "USD",
+    "avg_order_value_local": 75.0,
+    "order_value_std": 45.0,
+    "delivery_days_mean": 5.0,
+    "delivery_days_std": 2.0,
+    "refund_rate": 0.06,
+    "review_score_mean": 4.0,
+    "source_note": "PLACEHOLDER: general US e-commerce industry benchmarks, not measured. Refund rate loosely anchored to typical US e-commerce return-rate ranges."
+  },
+  "DE": {
+    "currency": "EUR",
+    "avg_order_value_local": 65.0,
+    "order_value_std": 38.0,
+    "delivery_days_mean": 3.5,
+    "delivery_days_std": 1.5,
+    "refund_rate": 0.09,
+    "review_score_mean": 4.1,
+    "source_note": "PLACEHOLDER. Germany has notably high e-commerce return rates versus other EU markets; 9% is a conservative placeholder pending real calibration."
+  },
+  "GH": {
+    "currency": "GHS",
+    "avg_order_value_local": 280.0,
+    "order_value_std": 160.0,
+    "delivery_days_mean": 8.0,
+    "delivery_days_std": 4.0,
+    "refund_rate": 0.04,
+    "review_score_mean": 4.2,
+    "source_note": "PLACEHOLDER: GHS 280 approximates a mid-range online order (roughly USD 18-22 at typical 2024-2026 GHS/USD rates). Longer delivery mean/std reflects generally less mature last-mile logistics infrastructure versus US/DE -- this is an assumption, not a measured fact, and should be called out explicitly as such in the README's limitations section."
+  }
+}

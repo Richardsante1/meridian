@@ -1,0 +1,619 @@
+customer_id,first_name,last_name,email,city,region,signup_date
+US-CUST-00000,Matthew,Parker,matthew.parker655@example.com,Joannaburgh,US,2023-08-17 00:00:00
+US-CUST-00001,Alexandra,Mccall,alexandra.mccall760@example.com,West Joel,US,07/17/2024 00:00
+US-CUST-00002,Michelle,Byrd,michelle.byrd229@example.com,Jennifershire,US,2023-10-13 00:00:00
+US-CUST-00003,Patrick,Thompson,patrick.thompson693@example.com,Jessefurt,US,28-Jun-2023
+US-CUST-00004,Danielle,Long,danielle.long33@example.com,South Michaelland,US,2023-03-03 00:00:00
+US-CUST-00005,Thomas,Phillips,thomas.phillips224@example.com,South Shawnaburgh,US,2024-04-21 00:00:00
+US-CUST-00006,Zachary,Carter,zachary.carter575@example.com,East Andrew,US,12-Feb-2024
+US-CUST-00007,Daniel,Thomas,daniel.thomas226@example.com,Lake David,US,08.07.2025
+US-CUST-00008,Amy,Ramirez,amy.ramirez829@example.com,Lake Craigstad,US,01/14/2023 00:00
+US-CUST-00009,David,Young,david.young715@example.com,Sethfort,US,15.05.2025
+US-CUST-00010,Paul,Higgins,paul.higgins285@example.com,Sarahstad,US,11/15/2023 00:00
+US-CUST-00011,Brittany,Flowers,brittany.flowers981@example.com,South Michaelton,US,2024-11-20 00:00:00
+US-CUST-00012,Christopher,Smith,christopher.smith95@example.com,Brandonport,US,2025-02-17 00:00:00
+US-CUST-00013,Thomas,Martin,thomas.martin368@example.com,Mariobury,US,05.12.2024
+US-CUST-00014,Christopher,Hernandez,christopher.hernandez827@example.com,West Jimmy,US,30-Mar-2023
+US-CUST-00015,Devin,Rice,devin.rice550@example.com,Carrillofurt,US,13-Sep-2023
+US-CUST-00016,William,Zimmerman,william.zimmerman81@example.com,Ryanmouth,US,23.08.2024
+US-CUST-00017,Daniel,Bell,daniel.bell592@example.com,Jacksonshire,US,2024-01-29 00:00:00
+US-CUST-00018,Amanda,Terry,amanda.terry47@example.com,Lake Jamesborough,US,11.04.2024
+US-CUST-00019,Katherine,Williams,katherine.williams82@example.com,Mcdonaldbury,US,2024-04-21 00:00:00
+US-CUST-00020,Michael,Lopez,michael.lopez390@example.com,Mooreside,US,23-Jul-2024
+US-CUST-00021,Maria,Conway,maria.conway651@example.com,South Jacobtown,US,01/17/2025 00:00
+US-CUST-00022,Daniel,Mathews,daniel.mathews380@example.com,North Lisaville,US,12/28/2024 00:00
+US-CUST-00023,Heather,Singleton,heather.singleton687@example.com,Port Gabriel,US,2024-06-30 00:00:00
+US-CUST-00024,Deborah,Rivera,deborah.rivera624@example.com,East Aprilchester,US,12/17/2023 00:00
+US-CUST-00025,Rachel,Sanchez,rachel.sanchez168@example.com,West Daniel,US,04-Aug-2025
+US-CUST-00026,Sherry,Rhodes,sherry.rhodes277@example.com,North Charlesshire,US,25.03.2024
+US-CUST-00027,Matthew,Harvey,matthew.harvey864@example.com,North Brittany,US,04/25/2023 00:00
+US-CUST-00028,Lisa,Mitchell,lisa.mitchell842@example.com,Port Stephanie,US,07.03.2023
+US-CUST-00029,Sherry,Dalton,sherry.dalton411@example.com,Lynnmouth,US,2024-07-02 00:00:00
+US-CUST-00030,Ryan,Li,ryan.li217@example.com,New Michaelburgh,US,10/06/2024 00:00
+US-CUST-00031,Jonathan,Taylor,jonathan.taylor672@example.com,Guzmanchester,US,19-Oct-2025
+US-CUST-00032,Dennis,Alvarado,dennis.alvarado906@example.com,South Dawn,US,07/28/2025 00:00
+US-CUST-00033,Michael,Martinez,michael.martinez272@example.com,New Grantville,US,10/13/2023 00:00
+US-CUST-00034,Jacob,Phillips,jacob.phillips763@example.com,Kimberlyborough,US,22-Jun-2024
+US-CUST-00035,Randy,Spencer,randy.spencer920@example.com,Chanville,US,28.03.2025
+US-CUST-00036,Caleb,Johnson,caleb.johnson225@example.com,Leemouth,US,11-Oct-2023
+US-CUST-00037,Monica,Lynch,monica.lynch94@example.com,Brewerfurt,US,2023-04-07 00:00:00
+US-CUST-00038,Kelly,Taylor,kelly.taylor157@example.com,Singhfurt,US,24-Nov-2023
+US-CUST-00039,Stephen,Moses,stephen.moses611@example.com,East Sarah,US,11-May-2023
+US-CUST-00040,Deborah,Duncan,deborah.duncan391@example.com,Kyleburgh,US,16.08.2025
+US-CUST-00041,Mary,Wright,mary.wright995@example.com,Martinezton,US,2023-01-24 00:00:00
+US-CUST-00042,William,Lindsey,william.lindsey699@example.com,North Mary,US,30.06.2024
+US-CUST-00043,Drew,Martin,drew.martin115@example.com,East Ashleyport,US,24-Aug-2024
+US-CUST-00044,Kathleen,Taylor,kathleen.taylor162@example.com,Isaacborough,US,2025-07-18 00:00:00
+US-CUST-00045,William,Turner,william.turner977@example.com,Jacquelinemouth,US,06/23/2024 00:00
+US-CUST-00046,Amanda,Malone,amanda.malone520@example.com,Zavalaborough,US,06.08.2023
+US-CUST-00047,Erin,Pratt,erin.pratt862@example.com,New David,US,11/05/2025 00:00
+US-CUST-00048,Margaret,Hawkins,margaret.hawkins157@example.com,New Regina,US,02/04/2025 00:00
+US-CUST-00049,Penny,Bennett,penny.bennett553@example.com,North Danielburgh,US,2025-12-22 00:00:00
+US-CUST-00050,Michelle,Martinez,michelle.martinez614@example.com,Martinmouth,US,25-Oct-2024
+US-CUST-00051,Natalie,Davis,natalie.davis20@example.com,East Bobton,US,18.08.2023
+US-CUST-00052,Allison,Ward,allison.ward900@example.com,South Lindaville,US,09/21/2024 00:00
+US-CUST-00053,Phillip,Moon,phillip.moon60@example.com,New Pamela,US,2024-05-08 00:00:00
+US-CUST-00054,Amy,Compton,amy.compton88@example.com,Ruiztown,US,2025-09-22 00:00:00
+US-CUST-00055,Vincent,Richardson,vincent.richardson779@example.com,New Paulaland,US,12/26/2025 00:00
+US-CUST-00056,Jack,Johnson,jack.johnson132@example.com,Donnamouth,US,08/31/2025 00:00
+US-CUST-00057,Tiffany,Bennett,tiffany.bennett272@example.com,Johnsonmouth,US,16-Dec-2025
+US-CUST-00058,Shannon,Miller,shannon.miller988@example.com,New Eric,US,03/09/2024 00:00
+US-CUST-00059,Donald,Fuentes,donald.fuentes731@example.com,Cantrellmouth,US,30-Sep-2024
+US-CUST-00060,Hannah,Carpenter,hannah.carpenter688@example.com,West Walterview,US,03-Feb-2025
+US-CUST-00061,Max,Cohen,max.cohen922@example.com,Randyview,US,25-Nov-2025
+US-CUST-00062,Nicholas,Ross,nicholas.ross124@example.com,East Patrick,US,05/22/2024 00:00
+US-CUST-00063,Kimberly,Garza,kimberly.garza66@example.com,East Lisamouth,US,2024-11-23 00:00:00
+US-CUST-00064,Ryan,Hernandez,ryan.hernandez603@example.com,Elizabethfort,US,04/16/2024 00:00
+US-CUST-00065,Kelly,Wilson,kelly.wilson8@example.com,New Christina,US,2023-05-26 00:00:00
+US-CUST-00066,Cynthia,Watson,cynthia.watson235@example.com,East Todd,US,2023-05-19 00:00:00
+US-CUST-00067,Marisa,Meyer,marisa.meyer881@example.com,West Jenniferview,US,2024-11-07 00:00:00
+US-CUST-00068,Jasmine,Taylor,jasmine.taylor527@example.com,East Heather,US,02.05.2024
+US-CUST-00069,Frank,Wagner,frank.wagner686@example.com,New Samantha,US,09/21/2025 00:00
+US-CUST-00070,Martin,Allen,martin.allen553@example.com,Colonmouth,US,28-Sep-2023
+US-CUST-00071,James,Martin,james.martin249@example.com,Raymondmouth,US,26-Aug-2025
+US-CUST-00072,Vicki,Erickson,vicki.erickson195@example.com,North Elizabeth,US,2023-07-13 00:00:00
+US-CUST-00073,Melissa,Riley,melissa.riley675@example.com,Audreybury,US,01.06.2025
+US-CUST-00074,Anne,Ross,anne.ross434@example.com,South Danielville,US,21-Apr-2025
+US-CUST-00075,Nancy,Mcclure,nancy.mcclure885@example.com,Wyattside,US,2023-04-21 00:00:00
+US-CUST-00076,Randy,Clay,randy.clay63@example.com,Lake Anthony,US,04.04.2025
+US-CUST-00077,Lisa,Smith,lisa.smith820@example.com,Payneside,US,08/12/2023 00:00
+US-CUST-00078,Kimberly,Baker,kimberly.baker197@example.com,West Lindatown,US,25-Jan-2024
+US-CUST-00079,Jamie,Palmer,jamie.palmer144@example.com,Knappfort,US,05/14/2025 00:00
+US-CUST-00080,Erika,Mitchell,erika.mitchell286@example.com,Port Timothy,US,08/05/2025 00:00
+US-CUST-00081,Julie,Taylor,julie.taylor896@example.com,Marioberg,US,04-Jun-2023
+US-CUST-00082,Rebecca,Garcia,rebecca.garcia828@example.com,Sarahtown,US,2023-07-20 00:00:00
+US-CUST-00083,Brian,Watson,brian.watson668@example.com,North Michael,US,2023-01-31 00:00:00
+US-CUST-00084,Eric,Combs,eric.combs949@example.com,New Kylefort,US,04/29/2024 00:00
+US-CUST-00085,Jennifer,Barnes,jennifer.barnes417@example.com,Thompsonville,US,21-Sep-2025
+US-CUST-00086,Michael,Wells,michael.wells219@example.com,West Jessicaside,US,2025-04-01 00:00:00
+US-CUST-00087,Steven,Taylor,steven.taylor169@example.com,North Angela,US,2025-02-15 00:00:00
+US-CUST-00088,Jennifer,Anthony,jennifer.anthony400@example.com,Kaylafort,US,27-Jun-2024
+US-CUST-00089,Adam,Blake,adam.blake293@example.com,Charlesside,US,16-May-2025
+US-CUST-00090,Paul,Stark,paul.stark159@example.com,South Troy,US,24.01.2024
+US-CUST-00091,Reginald,Ford,reginald.ford223@example.com,Port Richardmouth,US,2023-04-30 00:00:00
+US-CUST-00092,Joy,Gutierrez,joy.gutierrez766@example.com,Mariastad,US,2024-10-04 00:00:00
+US-CUST-00093,Molly,Campos,molly.campos52@example.com,West Ashley,US,09/03/2025 00:00
+US-CUST-00094,Vincent,Pitts,vincent.pitts59@example.com,Michaelborough,US,2025-11-06 00:00:00
+US-CUST-00095,Nicole,Johnson,nicole.johnson872@example.com,East Keith,US,2024-01-16 00:00:00
+US-CUST-00096,Makayla,Butler,makayla.butler610@example.com,West Kelly,US,05/20/2023 00:00
+US-CUST-00097,Heather,Fletcher,heather.fletcher414@example.com,Molinachester,US,09/03/2023 00:00
+US-CUST-00098,Michael,Daniel,michael.daniel593@example.com,Bowmanton,US,2023-03-23 00:00:00
+US-CUST-00099,Fernando,Cooper,fernando.cooper430@example.com,Lawsonburgh,US,06.12.2025
+US-CUST-00100,Debra,Thomas,debra.thomas958@example.com,Davisport,US,06/18/2024 00:00
+US-CUST-00101,Todd,Burton,todd.burton686@example.com,Amandaton,US,10/05/2024 00:00
+US-CUST-00102,Patricia,Webb,patricia.webb272@example.com,Port Tammy,US,03/21/2025 00:00
+US-CUST-00103,Nancy,Rodriguez,nancy.rodriguez688@example.com,New Katherinechester,US,06-Sep-2024
+US-CUST-00104,Robert,Conley,robert.conley324@example.com,South Steven,US,2023-05-29 00:00:00
+US-CUST-00105,Karen,Vasquez,karen.vasquez470@example.com,Smithfurt,US,2023-07-24 00:00:00
+US-CUST-00106,William,Christensen,william.christensen551@example.com,Maryfort,US,12.03.2024
+US-CUST-00107,Mark,Aguilar,mark.aguilar136@example.com,Lake Jodiborough,US,2024-12-15 00:00:00
+US-CUST-00108,Nicole,Lynch,nicole.lynch901@example.com,North Josephton,US,15.05.2024
+US-CUST-00109,Lisa,Velasquez,lisa.velasquez292@example.com,East Kellymouth,US,20-Nov-2023
+US-CUST-00110,Kristi,Roman,kristi.roman854@example.com,Jimenezport,US,2024-09-11 00:00:00
+US-CUST-00111,Travis,Murphy,travis.murphy684@example.com,East Todd,US,2024-09-05 00:00:00
+US-CUST-00112,Andrea,Garcia,andrea.garcia962@example.com,Hallport,US,03.10.2023
+US-CUST-00113,Kaitlyn,Smith,kaitlyn.smith119@example.com,Riggsstad,US,08/08/2023 00:00
+US-CUST-00114,Jenna,Maldonado,jenna.maldonado279@example.com,East Theresastad,US,07/31/2024 00:00
+US-CUST-00115,Monica,Edwards,monica.edwards735@example.com,West Brandy,US,12/03/2024 00:00
+US-CUST-00116,Kelly,Donovan,kelly.donovan704@example.com,Port Kelly,US,24-Jun-2024
+US-CUST-00117,Becky,Miller,becky.miller258@example.com,Jenniferside,US,2023-04-15 00:00:00
+US-CUST-00118,April,Martin,april.martin650@example.com,Wheelerfort,US,17.05.2025
+US-CUST-00119,Nathan,Aguirre,nathan.aguirre46@example.com,Port Brandi,US,08.01.2023
+US-CUST-00120,Ronald,Harris,ronald.harris790@example.com,Milesburgh,US,25.09.2023
+US-CUST-00121,Barbara,Collins,barbara.collins166@example.com,Port Joel,US,23-Jun-2025
+US-CUST-00122,Rachel,Alvarado,rachel.alvarado575@example.com,Russellhaven,US,2023-01-20 00:00:00
+US-CUST-00123,Marcus,Alexander,marcus.alexander78@example.com,Alexanderfort,US,2023-11-02 00:00:00
+US-CUST-00124,Marie,Gibbs,marie.gibbs855@example.com,Michelleberg,US,01/26/2025 00:00
+US-CUST-00125,Annette,Dalton,annette.dalton441@example.com,Baxterside,US,2023-09-19 00:00:00
+US-CUST-00126,Brandy,Robertson,brandy.robertson316@example.com,South Michelle,US,2025-01-16 00:00:00
+US-CUST-00127,Matthew,Stafford,matthew.stafford921@example.com,East James,US,01/02/2025 00:00
+US-CUST-00128,Rebecca,Turner,rebecca.turner699@example.com,Alexanderfurt,US,2024-05-26 00:00:00
+US-CUST-00129,Sara,Dickerson,sara.dickerson363@example.com,New Lauren,US,04/12/2025 00:00
+US-CUST-00130,Brian,Ruiz,brian.ruiz948@example.com,New Edwardview,US,04/29/2024 00:00
+US-CUST-00131,Jennifer,Moses,jennifer.moses820@example.com,South Marybury,US,29-Dec-2023
+US-CUST-00132,Alex,Taylor,alex.taylor26@example.com,Romerostad,US,03.01.2024
+US-CUST-00133,Jennifer,Jones,jennifer.jones802@example.com,Mortonville,US,04/23/2025 00:00
+US-CUST-00134,Brian,Myers,brian.myers274@example.com,East Kennethton,US,2023-11-23 00:00:00
+US-CUST-00135,Christopher,Sims,christopher.sims392@example.com,North Jordan,US,21-Mar-2023
+US-CUST-00136,Susan,Paul,susan.paul228@example.com,New Daniel,US,13-Feb-2024
+US-CUST-00137,Michael,Jensen,michael.jensen359@example.com,South Judith,US,09/17/2024 00:00
+US-CUST-00138,Chad,Fleming,chad.fleming229@example.com,South Katelynhaven,US,02/18/2023 00:00
+US-CUST-00139,Andrea,Ray,andrea.ray409@example.com,West Benjaminshire,US,03.11.2024
+US-CUST-00140,Anthony,Maldonado,anthony.maldonado886@example.com,East Williambury,US,23.05.2023
+US-CUST-00141,Ashlee,Brown,ashlee.brown360@example.com,Coffeytown,US,09-Nov-2025
+US-CUST-00142,Natalie,Underwood,natalie.underwood696@example.com,West Heidi,US,2024-11-09 00:00:00
+US-CUST-00143,John,Hendrix,john.hendrix119@example.com,North Markland,US,06/18/2024 00:00
+US-CUST-00144,Tiffany,Yang,tiffany.yang595@example.com,Bentleyfort,US,2024-06-27 00:00:00
+US-CUST-00145,Nancy,Spencer,nancy.spencer112@example.com,Port Christopherhaven,US,08.06.2025
+US-CUST-00146,Stephanie,Ferguson,stephanie.ferguson747@example.com,South Frank,US,04-Oct-2024
+US-CUST-00147,Adam,Price,adam.price621@example.com,South David,US,2025-11-13 00:00:00
+US-CUST-00148,Evelyn,Simmons,evelyn.simmons395@example.com,East Ashley,US,25.01.2024
+US-CUST-00149,John,Kelly,john.kelly46@example.com,South Amberfurt,US,2025-06-12 00:00:00
+US-CUST-00150,Joshua,Tucker,joshua.tucker533@example.com,Wilkinsbury,US,08.02.2024
+US-CUST-00151,Gerald,Kelley,gerald.kelley442@example.com,Lake Marie,US,24.05.2023
+US-CUST-00152,Matthew,Davis,matthew.davis639@example.com,Andersonberg,US,2024-10-04 00:00:00
+US-CUST-00153,Dana,Kelly,dana.kelly738@example.com,Austinton,US,07.09.2024
+US-CUST-00154,Richard,Morgan,richard.morgan683@example.com,Murphyland,US,16.04.2025
+US-CUST-00155,Luis,Braun,luis.braun413@example.com,Rogersmouth,US,08/28/2024 00:00
+US-CUST-00156,Shelly,Lewis,shelly.lewis197@example.com,Carpenterhaven,US,11-May-2025
+US-CUST-00157,Anthony,Smith,anthony.smith694@example.com,Richardsborough,US,23.12.2023
+US-CUST-00158,Stephanie,Perez,stephanie.perez416@example.com,Markton,US,01.01.2023
+US-CUST-00159,Corey,Marquez,corey.marquez294@example.com,Hollymouth,US,06-Mar-2024
+US-CUST-00160,Steven,Nunez,steven.nunez805@example.com,Richardhaven,US,21-Oct-2024
+US-CUST-00161,Debra,Smith,debra.smith453@example.com,Danielland,US,06/24/2025 00:00
+US-CUST-00162,Anna,Bush,anna.bush524@example.com,Tonyview,US,08/27/2025 00:00
+US-CUST-00163,Taylor,Browning,taylor.browning675@example.com,Butlerburgh,US,23.06.2023
+US-CUST-00164,David,Owens,david.owens528@example.com,Johnchester,US,2024-11-17 00:00:00
+US-CUST-00165,Jon,Martin,jon.martin839@example.com,Hudsonfort,US,26.04.2024
+US-CUST-00166,Carolyn,Barrett,carolyn.barrett231@example.com,Karenville,US,02/12/2024 00:00
+US-CUST-00167,Suzanne,Hudson,suzanne.hudson26@example.com,Port Bryan,US,04/05/2023 00:00
+US-CUST-00168,Christine,Perry,christine.perry487@example.com,Kathyfurt,US,30-May-2023
+US-CUST-00169,Timothy,Roberts,timothy.roberts425@example.com,Bellton,US,03-Feb-2024
+US-CUST-00170,Annette,Vaughan,annette.vaughan507@example.com,North Jamesburgh,US,03/29/2025 00:00
+US-CUST-00171,Gary,Rogers,gary.rogers152@example.com,North Nicole,US,2023-01-12 00:00:00
+US-CUST-00172,Angela,Hays,angela.hays798@example.com,South Robertton,US,05/20/2025 00:00
+US-CUST-00173,Thomas,Boyd,thomas.boyd181@example.com,New Robertstad,US,26-Nov-2025
+US-CUST-00174,Elizabeth,Jackson,elizabeth.jackson52@example.com,Ryanshire,US,2024-05-25 00:00:00
+US-CUST-00175,Heather,Diaz,heather.diaz468@example.com,Port Johnland,US,01-Oct-2023
+US-CUST-00176,Edward,Gross,edward.gross684@example.com,Lewisville,US,23.12.2025
+US-CUST-00177,Crystal,Henry,crystal.henry973@example.com,Andersonstad,US,25-Jun-2025
+US-CUST-00178,Jennifer,Mitchell,jennifer.mitchell851@example.com,Richardhaven,US,07/02/2025 00:00
+US-CUST-00179,Daniel,Lewis,daniel.lewis762@example.com,Fordland,US,30-Aug-2025
+US-CUST-00180,Jason,Hughes,jason.hughes266@example.com,Port Michael,US,21.05.2024
+US-CUST-00181,Luis,Cross,luis.cross785@example.com,New Tyler,US,03-Dec-2025
+US-CUST-00182,Robert,Lynch,robert.lynch642@example.com,Port Jonathanville,US,04.05.2024
+US-CUST-00183,Brian,Love,brian.love451@example.com,Schroedertown,US,08.06.2023
+US-CUST-00184,Nathan,Rodriguez,nathan.rodriguez241@example.com,East Krystal,US,10.07.2024
+US-CUST-00185,Ronald,Dominguez,ronald.dominguez328@example.com,Turnerstad,US,06/15/2023 00:00
+US-CUST-00186,Melissa,Morris,melissa.morris155@example.com,Port Kelly,US,18-Apr-2024
+US-CUST-00187,Gabriella,Gutierrez,gabriella.gutierrez711@example.com,Port Sueburgh,US,11/09/2023 00:00
+US-CUST-00188,Theresa,Rich,theresa.rich66@example.com,East Juanmouth,US,29-Apr-2025
+US-CUST-00189,Teresa,Davis,teresa.davis339@example.com,East Adamstad,US,12-Aug-2025
+US-CUST-00190,Stacey,Jordan,stacey.jordan64@example.com,West Phillipport,US,28-Feb-2024
+US-CUST-00191,Allison,Hays,allison.hays399@example.com,New Erinville,US,10-Feb-2023
+US-CUST-00192,Michael,Owen,michael.owen489@example.com,West Jack,US,13.01.2023
+US-CUST-00193,Mark,Hernandez,mark.hernandez306@example.com,Amandafort,US,09-Mar-2025
+US-CUST-00194,Justin,Garza,justin.garza552@example.com,Jenniferstad,US,27-Mar-2024
+US-CUST-00195,Melissa,Hendricks,melissa.hendricks225@example.com,South Tonya,US,12-Jul-2024
+US-CUST-00196,Jacob,Richards,jacob.richards498@example.com,Scottbury,US,01-Mar-2023
+US-CUST-00197,Craig,Mills,craig.mills345@example.com,Basston,US,04/08/2025 00:00
+US-CUST-00198,Tammy,Rodriguez,tammy.rodriguez861@example.com,South Rebecca,US,08/15/2025 00:00
+US-CUST-00199,Todd,Callahan,todd.callahan638@example.com,Nathanbury,US,2025-12-29 00:00:00
+US-CUST-00200,Ashley,Colon,ashley.colon929@example.com,North Bradley,US,2025-03-17 00:00:00
+US-CUST-00201,Kimberly,Adkins,kimberly.adkins86@example.com,Ramosburgh,US,05/27/2025 00:00
+US-CUST-00202,Christian,Edwards,christian.edwards888@example.com,West Samueltown,US,08/03/2025 00:00
+US-CUST-00203,Sarah,Diaz,sarah.diaz52@example.com,Hughesstad,US,16-Jun-2024
+US-CUST-00204,Jessica,James,jessica.james336@example.com,East Christinahaven,US,09-Mar-2024
+US-CUST-00205,Gregory,Williams,gregory.williams335@example.com,East Carl,US,22-Nov-2024
+US-CUST-00206,Chris,Johnson,chris.johnson285@example.com,Michellefurt,US,13.05.2025
+US-CUST-00207,Ryan,Williams,ryan.williams855@example.com,Andreachester,US,17-Jun-2023
+US-CUST-00208,Christopher,Smith,christopher.smith20@example.com,Cindymouth,US,17.04.2023
+US-CUST-00209,Mark,Walsh,mark.walsh230@example.com,Mayerland,US,2023-05-21 00:00:00
+US-CUST-00210,Nicole,Vang,nicole.vang773@example.com,Lake Thomasshire,US,03/05/2023 00:00
+US-CUST-00211,Tara,Gibson,tara.gibson205@example.com,Port Troy,US,02/11/2023 00:00
+US-CUST-00212,Dustin,Anderson,dustin.anderson245@example.com,Johnsonton,US,16-Sep-2023
+US-CUST-00213,Margaret,Tanner,margaret.tanner686@example.com,Reidview,US,08/23/2023 00:00
+US-CUST-00214,Crystal,Mercer,crystal.mercer477@example.com,Port Paulshire,US,08.06.2024
+US-CUST-00215,Mary,Fox,mary.fox172@example.com,Marvinbury,US,08/23/2023 00:00
+US-CUST-00216,James,Lee,james.lee988@example.com,South Glen,US,2024-09-29 00:00:00
+US-CUST-00217,Lauren,Rogers,lauren.rogers593@example.com,North Deborahberg,US,22.02.2023
+US-CUST-00218,Seth,Patterson,seth.patterson590@example.com,North Emma,US,07-Feb-2025
+US-CUST-00219,Richard,Williams,richard.williams965@example.com,Thomasland,US,2024-02-11 00:00:00
+US-CUST-00220,Andrea,Gomez,andrea.gomez607@example.com,Warrenside,US,2024-05-12 00:00:00
+US-CUST-00221,Rebecca,Ferguson,rebecca.ferguson714@example.com,Ellisonbury,US,2024-09-09 00:00:00
+US-CUST-00222,Michael,Rios,michael.rios816@example.com,Kelleyville,US,26.03.2023
+US-CUST-00223,Tyler,Owens,tyler.owens546@example.com,Port Amychester,US,27.05.2025
+US-CUST-00224,Crystal,Wilson,crystal.wilson71@example.com,Ryanborough,US,02.11.2025
+US-CUST-00225,Teresa,Clayton,teresa.clayton13@example.com,Angelaborough,US,10-May-2025
+US-CUST-00226,Joshua,Neal,joshua.neal109@example.com,Peterville,US,06.06.2025
+US-CUST-00227,Christian,Pham,christian.pham651@example.com,New Robertstad,US,07/30/2025 00:00
+US-CUST-00228,Jill,Contreras,jill.contreras446@example.com,Joshuaview,US,27.12.2023
+US-CUST-00229,Leah,Johnson,leah.johnson631@example.com,Port Georgefort,US,17-Sep-2025
+US-CUST-00230,David,Willis,david.willis447@example.com,Port Steven,US,03.07.2024
+US-CUST-00231,Christina,Dorsey,christina.dorsey873@example.com,Dylanmouth,US,2024-05-17 00:00:00
+US-CUST-00232,Christopher,Hooper,christopher.hooper286@example.com,North Charles,US,07/12/2025 00:00
+US-CUST-00233,Jerry,Rodriguez,jerry.rodriguez769@example.com,New Michaelside,US,09-Aug-2025
+US-CUST-00234,Jeffrey,Peterson,jeffrey.peterson345@example.com,North Annabury,US,28-Feb-2023
+US-CUST-00235,Nicholas,Davis,nicholas.davis872@example.com,East Duane,US,10/27/2024 00:00
+US-CUST-00236,Mark,Colon,mark.colon500@example.com,Amandachester,US,10.03.2024
+US-CUST-00237,Shane,Wagner,shane.wagner817@example.com,Port Michaelstad,US,13.06.2024
+US-CUST-00238,Jonathan,Kim,jonathan.kim287@example.com,West Amychester,US,2024-07-19 00:00:00
+US-CUST-00239,Timothy,Ortega,timothy.ortega530@example.com,East Ralph,US,2024-01-27 00:00:00
+US-CUST-00240,Leslie,Thompson,leslie.thompson248@example.com,South Jameschester,US,12-Apr-2025
+US-CUST-00241,Juan,Barrett,juan.barrett569@example.com,New Joshuaview,US,07-May-2024
+US-CUST-00242,Robin,Brown,robin.brown662@example.com,Cherryport,US,02-Oct-2025
+US-CUST-00243,James,Garcia,james.garcia812@example.com,Kristenborough,US,2023-02-05 00:00:00
+US-CUST-00244,Joseph,Lewis,joseph.lewis302@example.com,Port Tracyton,US,29-Mar-2024
+US-CUST-00245,Kenneth,Hamilton,kenneth.hamilton709@example.com,Elizabethland,US,13.05.2024
+US-CUST-00246,Kristen,Stanton,kristen.stanton680@example.com,New Kirk,US,25-Jan-2025
+US-CUST-00247,Deanna,Lawson,deanna.lawson567@example.com,Port Jeremiah,US,23.12.2025
+US-CUST-00248,Patricia,Meyer,patricia.meyer436@example.com,Carrollbury,US,08.11.2024
+US-CUST-00249,Breanna,Cervantes,breanna.cervantes720@example.com,Blakehaven,US,18.07.2025
+US-CUST-00250,Krista,Monroe,krista.monroe314@example.com,East Zacharychester,US,05/29/2024 00:00
+US-CUST-00251,Melissa,Hill,melissa.hill124@example.com,Jennaville,US,30.01.2024
+US-CUST-00252,Mandy,Hernandez,mandy.hernandez123@example.com,Autumnhaven,US,01/15/2024 00:00
+US-CUST-00253,Kristy,Murphy,kristy.murphy222@example.com,Shannonburgh,US,18.09.2025
+US-CUST-00254,Madeline,Harris,madeline.harris742@example.com,West James,US,10.12.2025
+US-CUST-00255,Leroy,Marks,leroy.marks103@example.com,Lake Jeffrey,US,02.02.2024
+US-CUST-00256,Megan,Bolton,megan.bolton233@example.com,Floresville,US,01/09/2025 00:00
+US-CUST-00257,Alexander,Miller,alexander.miller310@example.com,West Alicehaven,US,01/29/2023 00:00
+US-CUST-00258,Kenneth,Smith,kenneth.smith281@example.com,West Holly,US,2023-04-04 00:00:00
+US-CUST-00259,Mary,Weaver,mary.weaver567@example.com,West Jennifer,US,08/21/2024 00:00
+US-CUST-00260,Emily,Joseph,emily.joseph654@example.com,East Jennifer,US,2025-10-02 00:00:00
+US-CUST-00261,Eric,Harris,eric.harris894@example.com,Port Thomas,US,26.01.2023
+US-CUST-00262,Cheryl,Reeves,cheryl.reeves481@example.com,Taylorville,US,07-Sep-2025
+US-CUST-00263,Deborah,Johnson,deborah.johnson349@example.com,Micheleshire,US,2024-01-13 00:00:00
+US-CUST-00264,Wendy,Flores,wendy.flores259@example.com,Tamaraland,US,2025-09-05 00:00:00
+US-CUST-00265,James,Green,james.green842@example.com,Danielton,US,14-May-2023
+US-CUST-00266,Paul,Banks,paul.banks504@example.com,West Michael,US,2023-06-01 00:00:00
+US-CUST-00267,Ryan,Reese,ryan.reese156@example.com,North Deborah,US,02.11.2023
+US-CUST-00268,Peter,Norris,peter.norris88@example.com,Port Jeremy,US,2024-05-23 00:00:00
+US-CUST-00269,Sophia,Ross,sophia.ross572@example.com,Lake Markbury,US,05/02/2025 00:00
+US-CUST-00270,Ellen,Berg,ellen.berg795@example.com,West Alexisberg,US,06-Dec-2025
+US-CUST-00271,Bobby,Ashley,bobby.ashley462@example.com,South Shawn,US,25.06.2025
+US-CUST-00272,Cody,Santos,cody.santos881@example.com,Marisamouth,US,28.05.2025
+US-CUST-00273,Mark,King,mark.king583@example.com,North Corey,US,2023-05-04 00:00:00
+US-CUST-00274,Danny,Stewart,danny.stewart971@example.com,West Peter,US,03/01/2024 00:00
+US-CUST-00275,Jesse,Kelly,jesse.kelly271@example.com,Riverafort,US,06/16/2023 00:00
+US-CUST-00276,Julie,Thompson,julie.thompson246@example.com,Bowmanshire,US,2023-12-22 00:00:00
+US-CUST-00277,Wayne,Galloway,wayne.galloway161@example.com,Andreaview,US,06-Jan-2023
+US-CUST-00278,Martin,Ford,martin.ford462@example.com,Lake Collintown,US,20.08.2025
+US-CUST-00279,John,Webb,john.webb34@example.com,West Justin,US,19.04.2024
+US-CUST-00280,Kevin,Knight,kevin.knight724@example.com,Vanessaville,US,02-Aug-2024
+US-CUST-00281,Daniel,Coleman,daniel.coleman73@example.com,Port Randallshire,US,23.04.2024
+US-CUST-00282,Laura,Wilson,laura.wilson807@example.com,New Robertton,US,10-Feb-2024
+US-CUST-00283,James,Jones,james.jones118@example.com,Stevenhaven,US,04/05/2024 00:00
+US-CUST-00284,Keith,Thompson,keith.thompson931@example.com,Lake Samantha,US,06/28/2024 00:00
+US-CUST-00285,Kathleen,Mcpherson,kathleen.mcpherson74@example.com,Lake Julie,US,05/03/2023 00:00
+US-CUST-00286,Steven,Stark,steven.stark812@example.com,Harrisonberg,US,21.09.2024
+US-CUST-00287,Jorge,Mitchell,jorge.mitchell450@example.com,Lake Heather,US,12-Sep-2023
+US-CUST-00288,Bradley,Barton,bradley.barton706@example.com,Petersonbury,US,14-Sep-2024
+US-CUST-00289,Bernard,Meyer,bernard.meyer966@example.com,New Amanda,US,11-Jul-2024
+US-CUST-00290,Jake,Wang,jake.wang449@example.com,Jeremyborough,US,2023-06-14 00:00:00
+US-CUST-00291,Cory,Burton,cory.burton911@example.com,West Stefanie,US,03.06.2025
+US-CUST-00292,Eric,Taylor,eric.taylor619@example.com,Kimberlyfort,US,2024-05-27 00:00:00
+US-CUST-00293,Alexandra,Barrett,alexandra.barrett94@example.com,Lake Michael,US,2024-04-13 00:00:00
+US-CUST-00294,Shane,Dominguez,shane.dominguez784@example.com,North Brandy,US,2024-07-05 00:00:00
+US-CUST-00295,Dana,Roberts,dana.roberts782@example.com,Edwardshaven,US,25-Dec-2023
+US-CUST-00296,Johnny,Brennan,johnny.brennan532@example.com,Janetview,US,24.06.2025
+US-CUST-00297,Audrey,Marquez,audrey.marquez186@example.com,North Josephview,US,11-Jun-2025
+US-CUST-00298,Devin,Lucero,devin.lucero993@example.com,Zimmermanfort,US,06-Jul-2023
+US-CUST-00299,Benjamin,Hansen,benjamin.hansen357@example.com,West Sheila,US,16.04.2025
+US-CUST-00300,Geoffrey,Williams,geoffrey.williams329@example.com,Davisberg,US,08/03/2023 00:00
+US-CUST-00301,William,Crosby,william.crosby338@example.com,West Katherine,US,23-Apr-2025
+US-CUST-00302,Cody,Hancock,cody.hancock296@example.com,Allenshire,US,2025-03-31 00:00:00
+US-CUST-00303,Lori,Burch,lori.burch466@example.com,East Leeside,US,30.06.2023
+US-CUST-00304,Danielle,Mcdowell,danielle.mcdowell259@example.com,Lake Anthonymouth,US,2024-10-24 00:00:00
+US-CUST-00305,Bill,Chavez,bill.chavez994@example.com,New Ralphton,US,2025-04-07 00:00:00
+US-CUST-00306,Isabella,Bell,isabella.bell674@example.com,New Stephanie,US,04-Aug-2025
+US-CUST-00307,Amy,Johnson,amy.johnson56@example.com,Kellyside,US,20.01.2024
+US-CUST-00308,Chad,Williams,chad.williams638@example.com,Gregoryview,US,17-Oct-2025
+US-CUST-00309,Samuel,Bentley,samuel.bentley779@example.com,New Kathy,US,04/16/2023 00:00
+US-CUST-00310,Travis,Williams,travis.williams274@example.com,North Brianborough,US,26.09.2023
+US-CUST-00311,Tiffany,Contreras,tiffany.contreras449@example.com,East Ashley,US,2025-09-19 00:00:00
+US-CUST-00312,Andrew,Smith,andrew.smith30@example.com,Lake Eddie,US,05/05/2024 00:00
+US-CUST-00313,John,Howell,john.howell319@example.com,Padillamouth,US,29-Jan-2023
+US-CUST-00314,Bradley,Gallagher,bradley.gallagher96@example.com,Elizabethville,US,2024-04-05 00:00:00
+US-CUST-00315,Jeffrey,Sharp,jeffrey.sharp473@example.com,New Dennis,US,08/29/2023 00:00
+US-CUST-00316,Sharon,Villa,sharon.villa511@example.com,Port Tracichester,US,20.08.2024
+US-CUST-00317,Troy,Roman,troy.roman426@example.com,Port Michaelfurt,US,15-Sep-2025
+US-CUST-00318,Christina,Young,christina.young250@example.com,New Kimberlyland,US,07/24/2025 00:00
+US-CUST-00319,Derek,Bryant,derek.bryant393@example.com,West Anna,US,01/26/2024 00:00
+US-CUST-00320,Randy,Owens,randy.owens885@example.com,Stacybury,US,23.05.2023
+US-CUST-00321,Jenna,Martinez,jenna.martinez792@example.com,Dylanmouth,US,29.04.2025
+US-CUST-00322,Andrea,Henderson,andrea.henderson957@example.com,South Annaborough,US,05.11.2025
+US-CUST-00323,Joseph,Johnson,joseph.johnson841@example.com,Frazierchester,US,06.01.2023
+US-CUST-00324,Kevin,Guerra,kevin.guerra744@example.com,Ronaldfort,US,03-Sep-2024
+US-CUST-00325,Amy,Gonzales,amy.gonzales887@example.com,Martinezshire,US,01-Nov-2023
+US-CUST-00326,Michelle,Smith,michelle.smith552@example.com,Frenchhaven,US,18.09.2025
+US-CUST-00327,Ruth,Reed,ruth.reed341@example.com,Katrinaburgh,US,11-Feb-2025
+US-CUST-00328,Samantha,Jackson,samantha.jackson956@example.com,Lisafurt,US,10/21/2024 00:00
+US-CUST-00329,Brandi,Smith,brandi.smith715@example.com,Lake Stacyborough,US,04-May-2024
+US-CUST-00330,Margaret,Copeland,margaret.copeland240@example.com,Lake Priscillaport,US,2025-04-21 00:00:00
+US-CUST-00331,Kevin,Mcdowell,kevin.mcdowell326@example.com,North Randyburgh,US,26-Aug-2025
+US-CUST-00332,Tara,Jimenez,tara.jimenez396@example.com,South Jordanmouth,US,08-Nov-2023
+US-CUST-00333,Eric,Martin,eric.martin988@example.com,East Markchester,US,03/17/2023 00:00
+US-CUST-00334,Dylan,Howell,dylan.howell515@example.com,West Shane,US,2024-11-10 00:00:00
+US-CUST-00335,Jason,Delacruz,jason.delacruz896@example.com,Sandersbury,US,2025-06-20 00:00:00
+US-CUST-00336,Christina,Bennett,christina.bennett539@example.com,South Michellemouth,US,2025-07-24 00:00:00
+US-CUST-00337,Kelsey,Salazar,kelsey.salazar740@example.com,Margaretberg,US,23-Oct-2023
+US-CUST-00338,Cheryl,Chan,cheryl.chan892@example.com,West Gregoryshire,US,2023-11-13 00:00:00
+US-CUST-00339,Scott,Thomas,scott.thomas481@example.com,Castillobury,US,26.06.2024
+US-CUST-00340,Kathleen,Torres,kathleen.torres639@example.com,Lake Joe,US,2025-03-25 00:00:00
+US-CUST-00341,Brandon,Murphy,brandon.murphy873@example.com,South Richard,US,03-Nov-2024
+US-CUST-00342,John,Bennett,john.bennett978@example.com,New Michael,US,10-Oct-2024
+US-CUST-00343,Dillon,Crawford,dillon.crawford894@example.com,Laurastad,US,2023-03-15 00:00:00
+US-CUST-00344,Maxwell,Atkins,maxwell.atkins241@example.com,Carpentertown,US,08/11/2024 00:00
+US-CUST-00345,Michael,Thompson,michael.thompson765@example.com,West Teresafurt,US,05-Jul-2023
+US-CUST-00346,Barry,Gonzales,barry.gonzales101@example.com,Lake Cynthiabury,US,25-Jul-2023
+US-CUST-00347,Destiny,Evans,destiny.evans171@example.com,West Anthony,US,2024-09-05 00:00:00
+US-CUST-00348,Jessica,Taylor,jessica.taylor48@example.com,South Ericfort,US,2024-10-26 00:00:00
+US-CUST-00349,Jeffrey,Hood,jeffrey.hood301@example.com,East Tyler,US,04.01.2025
+US-CUST-00350,Ethan,Washington,ethan.washington442@example.com,West Cherylside,US,10/26/2023 00:00
+US-CUST-00351,Cynthia,Sellers,cynthia.sellers544@example.com,North Evelyn,US,04/23/2025 00:00
+US-CUST-00352,James,Rivera,james.rivera175@example.com,Aprilville,US,2023-12-25 00:00:00
+US-CUST-00353,David,Franco,david.franco625@example.com,South Brendaborough,US,02/22/2025 00:00
+US-CUST-00354,Paige,Boyer,paige.boyer510@example.com,West Mirandaton,US,10/21/2023 00:00
+US-CUST-00355,Jenny,Vargas,jenny.vargas473@example.com,New Tony,US,04-Jun-2024
+US-CUST-00356,Michelle,Morris,michelle.morris262@example.com,North Kendratown,US,20-Jan-2023
+US-CUST-00357,Christopher,Villanueva,christopher.villanueva923@example.com,Kristinaton,US,08/12/2024 00:00
+US-CUST-00358,Jackie,Gomez,jackie.gomez76@example.com,West Brendaview,US,23.06.2025
+US-CUST-00359,Joshua,Liu,joshua.liu602@example.com,South Sydney,US,04-Sep-2024
+US-CUST-00360,Cynthia,Velez,cynthia.velez707@example.com,New Suzannemouth,US,27-May-2024
+US-CUST-00361,Zachary,Watts,zachary.watts866@example.com,North Stephen,US,09/10/2024 00:00
+US-CUST-00362,Jonathan,Fields,jonathan.fields394@example.com,Pricestad,US,2025-09-16 00:00:00
+US-CUST-00363,Mariah,Richardson,mariah.richardson243@example.com,Mooremouth,US,20.02.2025
+US-CUST-00364,Richard,Roberts,richard.roberts589@example.com,Fordland,US,28.08.2024
+US-CUST-00365,Mitchell,Smith,mitchell.smith23@example.com,Ashleybury,US,21.03.2025
+US-CUST-00366,Steven,Williams,steven.williams9@example.com,Port Angela,US,11-Apr-2023
+US-CUST-00367,Michael,Galloway,michael.galloway853@example.com,Amychester,US,08/09/2024 00:00
+US-CUST-00368,Ashley,Phillips,ashley.phillips622@example.com,Lake Aliciafurt,US,12/22/2024 00:00
+US-CUST-00369,Kara,Rosales,kara.rosales652@example.com,Port Jessicachester,US,25.01.2024
+US-CUST-00370,Nicole,Sanders,nicole.sanders695@example.com,Port Josephhaven,US,2023-10-08 00:00:00
+US-CUST-00371,Tammie,Miller,tammie.miller926@example.com,South Paula,US,22.03.2023
+US-CUST-00372,Christopher,Jordan,christopher.jordan808@example.com,New Briantown,US,2025-06-21 00:00:00
+US-CUST-00373,Laurie,Bruce,laurie.bruce594@example.com,Edwardstown,US,01/17/2025 00:00
+US-CUST-00374,Sara,Munoz,sara.munoz93@example.com,Reedbury,US,27.08.2024
+US-CUST-00375,Richard,Pacheco,richard.pacheco766@example.com,New Kelly,US,04/30/2025 00:00
+US-CUST-00376,Natasha,Hunter,natasha.hunter206@example.com,North Yolanda,US,28.09.2023
+US-CUST-00377,Troy,Serrano,troy.serrano544@example.com,South Calebfurt,US,24.10.2025
+US-CUST-00378,Joseph,Jones,joseph.jones851@example.com,Tinamouth,US,03.12.2023
+US-CUST-00379,Troy,Johnson,troy.johnson936@example.com,South Teresa,US,13.09.2025
+US-CUST-00380,Jeff,Carter,jeff.carter765@example.com,Allisonstad,US,2024-11-24 00:00:00
+US-CUST-00381,Dana,Ochoa,dana.ochoa480@example.com,Sophiafurt,US,06/04/2023 00:00
+US-CUST-00382,Michelle,Carrillo,michelle.carrillo773@example.com,Diazmouth,US,07-Apr-2024
+US-CUST-00383,Christopher,Weber,christopher.weber991@example.com,Jasonfurt,US,2025-01-19 00:00:00
+US-CUST-00384,Michael,Velazquez,michael.velazquez810@example.com,Griffinshire,US,2025-03-19 00:00:00
+US-CUST-00385,Edward,Moody,edward.moody271@example.com,East Michellefurt,US,11-Sep-2023
+US-CUST-00386,Susan,Johnson,susan.johnson378@example.com,North Patriciahaven,US,20-Jun-2024
+US-CUST-00387,Brianna,Davis,brianna.davis843@example.com,Port Amandaburgh,US,2025-01-30 00:00:00
+US-CUST-00388,David,Martinez,david.martinez692@example.com,Melindabury,US,23-Apr-2024
+US-CUST-00389,Megan,Baldwin,megan.baldwin26@example.com,Gregoryborough,US,11/02/2024 00:00
+US-CUST-00390,Stacey,Hernandez,stacey.hernandez664@example.com,West Joseph,US,10-May-2023
+US-CUST-00391,Emily,Logan,emily.logan932@example.com,West Kimberly,US,10-Sep-2024
+US-CUST-00392,Erin,Diaz,erin.diaz120@example.com,East Andreafort,US,2023-10-14 00:00:00
+US-CUST-00393,Tommy,Houston,tommy.houston969@example.com,Christinefort,US,18.03.2023
+US-CUST-00394,William,Curtis,william.curtis505@example.com,Port Timothytown,US,2023-08-26 00:00:00
+US-CUST-00395,Dorothy,Moore,dorothy.moore241@example.com,New Matthew,US,05-Oct-2023
+US-CUST-00396,Matthew,Phillips,matthew.phillips465@example.com,Mclaughlinville,US,29-Jan-2025
+US-CUST-00397,Dana,Martin,dana.martin602@example.com,Ronaldview,US,13-Nov-2023
+US-CUST-00398,Jennifer,Wong,jennifer.wong671@example.com,South Dylan,US,22-Jul-2023
+US-CUST-00399,John,Little,john.little631@example.com,Blakeland,US,15.04.2025
+US-CUST-00400,Meredith,Washington,meredith.washington34@example.com,Gilbertport,US,01/28/2025 00:00
+US-CUST-00401,John,Price,john.price455@example.com,Lake Timothyton,US,06/29/2025 00:00
+US-CUST-00402,Jason,Moreno,jason.moreno876@example.com,Whitebury,US,2025-01-12 00:00:00
+US-CUST-00403,Gregory,Hamilton,gregory.hamilton703@example.com,Jillianburgh,US,22.01.2025
+US-CUST-00404,Robin,Bell,robin.bell63@example.com,East Madeline,US,26.03.2025
+US-CUST-00405,Angela,Hood,angela.hood195@example.com,Lauraberg,US,08-Sep-2023
+US-CUST-00406,Cesar,James,cesar.james94@example.com,West Christianview,US,2024-03-10 00:00:00
+US-CUST-00407,Carolyn,Lopez,carolyn.lopez52@example.com,Lake Christy,US,11/14/2024 00:00
+US-CUST-00408,Sherry,Lyons,sherry.lyons129@example.com,Michaelberg,US,2024-02-25 00:00:00
+US-CUST-00409,Brandy,Byrd,brandy.byrd850@example.com,South Dawnchester,US,02/29/2024 00:00
+US-CUST-00410,Holly,Gonzalez,holly.gonzalez833@example.com,South Joseph,US,22.04.2024
+US-CUST-00411,Kevin,Vargas,kevin.vargas793@example.com,Rodriguezborough,US,2023-10-30 00:00:00
+US-CUST-00412,Jacob,Adams,jacob.adams284@example.com,North Patrick,US,10/24/2023 00:00
+US-CUST-00413,James,Cox,james.cox554@example.com,Jenniferborough,US,05/28/2024 00:00
+US-CUST-00414,Jesse,Montoya,jesse.montoya113@example.com,North Daniel,US,02/22/2023 00:00
+US-CUST-00415,Tiffany,Browning,tiffany.browning16@example.com,Davisburgh,US,01/03/2025 00:00
+US-CUST-00416,Nathan,Wright,nathan.wright603@example.com,West Thomas,US,2024-10-25 00:00:00
+US-CUST-00417,Stephen,Mullins,stephen.mullins179@example.com,Simsborough,US,2024-06-27 00:00:00
+US-CUST-00418,John,Davis,john.davis130@example.com,Guyside,US,2025-05-12 00:00:00
+US-CUST-00419,Alison,Underwood,alison.underwood764@example.com,Garybury,US,11-May-2023
+US-CUST-00420,Brian,Harrison,brian.harrison460@example.com,Johnberg,US,2025-01-11 00:00:00
+US-CUST-00421,Shelley,Combs,shelley.combs463@example.com,Nicholaschester,US,10/28/2025 00:00
+US-CUST-00422,Deborah,Dean,deborah.dean969@example.com,Barbaramouth,US,30.03.2023
+US-CUST-00423,John,Romero,john.romero470@example.com,Vanessamouth,US,2023-03-05 00:00:00
+US-CUST-00424,Melanie,Nguyen,melanie.nguyen491@example.com,West Angela,US,02-Apr-2025
+US-CUST-00425,Julie,Cox,julie.cox703@example.com,Rioshaven,US,10-Aug-2023
+US-CUST-00426,Matthew,Lawson,matthew.lawson730@example.com,Bushview,US,2025-06-27 00:00:00
+US-CUST-00427,Julie,Cole,julie.cole921@example.com,Johnside,US,15.06.2023
+US-CUST-00428,Mark,Riley,mark.riley623@example.com,Comptonfurt,US,2023-10-31 00:00:00
+US-CUST-00429,Andre,Mcbride,andre.mcbride130@example.com,Port David,US,17.07.2024
+US-CUST-00430,John,Pope,john.pope391@example.com,Reidville,US,22.12.2025
+US-CUST-00431,Rebecca,Griffith,rebecca.griffith465@example.com,South John,US,01-Nov-2025
+US-CUST-00432,Nicholas,Allen,nicholas.allen102@example.com,Medinafurt,US,08/23/2023 00:00
+US-CUST-00433,Robert,Moreno,robert.moreno441@example.com,Christopherburgh,US,07/13/2025 00:00
+US-CUST-00434,Nathan,Brown,nathan.brown424@example.com,Catherinefurt,US,25-Nov-2024
+US-CUST-00435,Donald,Ward,donald.ward409@example.com,Terrancefurt,US,2025-05-01 00:00:00
+US-CUST-00436,Perry,Shaw,perry.shaw321@example.com,Lake Stephanieview,US,24.05.2025
+US-CUST-00437,Gary,King,gary.king682@example.com,East Scottton,US,06.06.2024
+US-CUST-00438,Emily,Mccullough,emily.mccullough977@example.com,New Susan,US,09-Nov-2023
+US-CUST-00439,Michael,Garcia,michael.garcia69@example.com,Lake Jenny,US,2023-07-06 00:00:00
+US-CUST-00440,Diane,Norman,diane.norman96@example.com,Port Kellimouth,US,2025-06-03 00:00:00
+US-CUST-00441,Lisa,Norris,lisa.norris763@example.com,New Andrew,US,02/02/2025 00:00
+US-CUST-00442,Mark,Hoover,mark.hoover570@example.com,Sarahberg,US,03.05.2023
+US-CUST-00443,Jonathan,Lopez,jonathan.lopez687@example.com,Brandyland,US,08-Sep-2023
+US-CUST-00444,Melanie,Maxwell,melanie.maxwell363@example.com,Huertaton,US,2025-05-16 00:00:00
+US-CUST-00445,Mary,Clarke,mary.clarke992@example.com,Mullinsstad,US,12.08.2024
+US-CUST-00446,Sandra,Stokes,sandra.stokes361@example.com,Lake Sandra,US,08/01/2023 00:00
+US-CUST-00447,Kevin,Brady,kevin.brady159@example.com,Jamesbury,US,09/14/2025 00:00
+US-CUST-00448,Logan,Mcgee,logan.mcgee868@example.com,North Bridgetside,US,10.08.2023
+US-CUST-00449,Nicole,Riley,nicole.riley866@example.com,Stephanieville,US,2025-01-22 00:00:00
+US-CUST-00450,Leslie,Roberson,leslie.roberson781@example.com,Bonillaville,US,07/24/2024 00:00
+US-CUST-00451,Martha,Stokes,martha.stokes827@example.com,New Haley,US,2025-05-28 00:00:00
+US-CUST-00452,Bruce,Santos,bruce.santos624@example.com,Julieport,US,2024-07-01 00:00:00
+US-CUST-00453,Emily,Ellis,emily.ellis185@example.com,New Katrinaton,US,13.07.2024
+US-CUST-00454,Erica,Diaz,erica.diaz944@example.com,Jeffreyview,US,26.11.2024
+US-CUST-00455,Thomas,Cook,thomas.cook7@example.com,Johnland,US,01/07/2024 00:00
+US-CUST-00456,Danielle,Nichols,danielle.nichols580@example.com,Lake Annette,US,2025-03-31 00:00:00
+US-CUST-00457,Brandon,Ponce,brandon.ponce146@example.com,Lake Keithville,US,2023-03-04 00:00:00
+US-CUST-00458,Brandon,Murphy,brandon.murphy765@example.com,Tranburgh,US,12/22/2025 00:00
+US-CUST-00459,Tristan,Moss,tristan.moss386@example.com,East Danielfort,US,09-May-2025
+US-CUST-00460,Melanie,Hernandez,melanie.hernandez350@example.com,Mcfarlandborough,US,19.11.2023
+US-CUST-00461,Janice,Gomez,janice.gomez320@example.com,East Julie,US,2024-10-26 00:00:00
+US-CUST-00462,Ryan,Kelly,ryan.kelly905@example.com,Port Davidfort,US,04/18/2023 00:00
+US-CUST-00463,Alexander,King,alexander.king162@example.com,Weissshire,US,2023-04-12 00:00:00
+US-CUST-00464,Courtney,Collins,courtney.collins279@example.com,West Rickytown,US,26-Jun-2025
+US-CUST-00465,Desiree,Watson,desiree.watson498@example.com,West Donaldmouth,US,24-Jun-2025
+US-CUST-00466,Elijah,Castillo,elijah.castillo280@example.com,North Brad,US,2024-03-17 00:00:00
+US-CUST-00467,Tim,Brown,tim.brown354@example.com,New Kennethshire,US,2025-05-30 00:00:00
+US-CUST-00468,Jesus,Davis,jesus.davis291@example.com,East Jaymouth,US,23.09.2025
+US-CUST-00469,Andrew,Evans,andrew.evans47@example.com,Webertown,US,27-Mar-2024
+US-CUST-00470,John,Page,john.page614@example.com,Michaelbury,US,2023-04-23 00:00:00
+US-CUST-00471,Stacey,Castillo,stacey.castillo210@example.com,Johnport,US,09/09/2024 00:00
+US-CUST-00472,Krista,Stevens,krista.stevens786@example.com,Port Cherylborough,US,09.10.2023
+US-CUST-00473,David,Lyons,david.lyons297@example.com,West Timothy,US,2024-11-02 00:00:00
+US-CUST-00474,Jesus,Gutierrez,jesus.gutierrez8@example.com,Pamelaside,US,15-Oct-2025
+US-CUST-00475,Lisa,Frey,lisa.frey180@example.com,South Amanda,US,22-Sep-2023
+US-CUST-00476,Jane,Jackson,jane.jackson546@example.com,Lake Chelseystad,US,16.04.2024
+US-CUST-00477,Timothy,Mason,timothy.mason74@example.com,Kristenstad,US,2025-03-24 00:00:00
+US-CUST-00478,Daniel,Cortez,daniel.cortez447@example.com,North Stephanie,US,08-Feb-2023
+US-CUST-00479,Yolanda,Holmes,yolanda.holmes944@example.com,Lake Todd,US,09.06.2023
+US-CUST-00480,Brendan,Guerrero,brendan.guerrero590@example.com,South Jeffreyview,US,29-May-2025
+US-CUST-00481,Madison,Thomas,madison.thomas727@example.com,West Emily,US,05.05.2025
+US-CUST-00482,Brady,Horn,brady.horn118@example.com,Harpermouth,US,2025-04-09 00:00:00
+US-CUST-00483,Joshua,Barnett,joshua.barnett990@example.com,Port Alicia,US,10/27/2024 00:00
+US-CUST-00484,Kristin,Griffin,kristin.griffin821@example.com,Gravesmouth,US,31.07.2025
+US-CUST-00485,Scott,Lynch,scott.lynch91@example.com,Dylanbury,US,2025-06-13 00:00:00
+US-CUST-00486,Philip,Salas,philip.salas250@example.com,Ramirezchester,US,11-Jun-2025
+US-CUST-00487,Jessica,Parker,jessica.parker537@example.com,North Jefferyton,US,11-Jun-2023
+US-CUST-00488,Kristina,Rios,kristina.rios892@example.com,Whitechester,US,27.09.2024
+US-CUST-00489,Michael,Wells,michael.wells227@example.com,Churchshire,US,11/13/2024 00:00
+US-CUST-00490,David,Floyd,david.floyd79@example.com,South Brandonview,US,2025-11-11 00:00:00
+US-CUST-00491,Andrea,Marshall,andrea.marshall544@example.com,Rossbury,US,11/10/2025 00:00
+US-CUST-00492,Jennifer,White,jennifer.white928@example.com,Lake Penny,US,16.12.2024
+US-CUST-00493,David,Mathews,david.mathews745@example.com,Port Jacobmouth,US,10/30/2023 00:00
+US-CUST-00494,Vanessa,Sherman,vanessa.sherman106@example.com,Boothstad,US,27.10.2023
+US-CUST-00495,Ryan,Benson,ryan.benson203@example.com,West Lisaborough,US,12/22/2023 00:00
+US-CUST-00496,John,Walker,john.walker779@example.com,South Christopher,US,06/04/2023 00:00
+US-CUST-00497,Christine,Jones,christine.jones975@example.com,South Andreachester,US,08-Oct-2025
+US-CUST-00498,Andrew,Rojas,andrew.rojas773@example.com,North Karen,US,08.07.2025
+US-CUST-00499,Laura,Mcknight,laura.mcknight885@example.com,North Timothy,US,10/09/2024 00:00
+US-CUST-00500,Kimberly,Ramirez,kimberly.ramirez451@example.com,South Christina,US,20-May-2023
+US-CUST-00501,Emma,Hernandez,emma.hernandez453@example.com,North Jaredchester,US,12.09.2024
+US-CUST-00502,Stephanie,Foster,stephanie.foster606@example.com,West William,US,26.04.2023
+US-CUST-00503,Richard,Gross,richard.gross520@example.com,East Laurie,US,01.06.2023
+US-CUST-00504,Anthony,Gibbs,anthony.gibbs473@example.com,Mcculloughtown,US,2025-07-14 00:00:00
+US-CUST-00505,Christopher,Bowen,christopher.bowen59@example.com,Combstown,US,25.01.2025
+US-CUST-00506,Belinda,Baker,belinda.baker79@example.com,Lake Larryton,US,04-Jul-2023
+US-CUST-00507,Carolyn,Wallace,carolyn.wallace474@example.com,North Paulastad,US,26-Mar-2023
+US-CUST-00508,Kerri,Garza,kerri.garza931@example.com,Fletcherville,US,21.01.2024
+US-CUST-00509,Shelby,Miller,shelby.miller620@example.com,Joycechester,US,09/01/2025 00:00
+US-CUST-00510,Jerry,Lopez,jerry.lopez981@example.com,Raymondville,US,07-May-2023
+US-CUST-00511,Kenneth,Jones,kenneth.jones106@example.com,Lake Kathleen,US,2024-12-04 00:00:00
+US-CUST-00512,Roger,Ortiz,roger.ortiz517@example.com,Port Janet,US,2023-12-20 00:00:00
+US-CUST-00513,Lauren,Baker,lauren.baker254@example.com,Porterfort,US,15-Jun-2025
+US-CUST-00514,Richard,Gray,richard.gray537@example.com,Kevinberg,US,12/06/2025 00:00
+US-CUST-00515,Charlotte,Spencer,charlotte.spencer373@example.com,Rhondaton,US,02.02.2025
+US-CUST-00516,John,Smith,john.smith397@example.com,Kinghaven,US,17.04.2025
+US-CUST-00517,Raymond,Webb,raymond.webb696@example.com,North James,US,18.04.2023
+US-CUST-00518,Anthony,Jenkins,anthony.jenkins68@example.com,Jimmyside,US,2024-11-06 00:00:00
+US-CUST-00519,Rebecca,Hamilton,rebecca.hamilton572@example.com,Natashaburgh,US,02.03.2025
+US-CUST-00520,Jade,Galvan,jade.galvan259@example.com,West Sandrashire,US,04.11.2023
+US-CUST-00521,Courtney,Lopez,courtney.lopez84@example.com,Juanshire,US,17.10.2023
+US-CUST-00522,Megan,Henry,megan.henry318@example.com,Lake Kristin,US,03/13/2025 00:00
+US-CUST-00523,Kimberly,Pitts,kimberly.pitts610@example.com,East Danielberg,US,23.06.2023
+US-CUST-00524,Chad,Moody,chad.moody573@example.com,New Jeffreyview,US,10.02.2025
+US-CUST-00525,Lisa,Carney,lisa.carney833@example.com,Parrishfurt,US,2023-09-19 00:00:00
+US-CUST-00526,Ashley,Avila,ashley.avila662@example.com,New Toddton,US,17.05.2025
+US-CUST-00527,Amber,Hernandez,amber.hernandez19@example.com,East Brent,US,12.01.2025
+US-CUST-00528,Hannah,Carter,hannah.carter185@example.com,Wandafurt,US,14.03.2024
+US-CUST-00529,Cynthia,Davis,cynthia.davis971@example.com,West James,US,09/22/2025 00:00
+US-CUST-00530,Jonathan,Powell,jonathan.powell232@example.com,South Derekbury,US,10/09/2023 00:00
+US-CUST-00531,Olivia,Anderson,olivia.anderson80@example.com,North Mariahburgh,US,2024-08-28 00:00:00
+US-CUST-00532,Brandon,Rowland,brandon.rowland520@example.com,Port Michaelfort,US,2025-12-14 00:00:00
+US-CUST-00533,Jacob,Richard,jacob.richard678@example.com,Castilloberg,US,11/20/2024 00:00
+US-CUST-00534,Ethan,Rubio,ethan.rubio612@example.com,Andersonport,US,02/10/2025 00:00
+US-CUST-00535,Karen,Thomas,karen.thomas167@example.com,Jessicamouth,US,01/06/2024 00:00
+US-CUST-00536,Jared,Brooks,jared.brooks739@example.com,Rossside,US,2025-06-15 00:00:00
+US-CUST-00537,Amber,Jackson,amber.jackson421@example.com,Stonemouth,US,01/16/2025 00:00
+US-CUST-00538,Kristi,Watkins,kristi.watkins993@example.com,Josephbury,US,28.06.2025
+US-CUST-00539,Vicki,Marshall,vicki.marshall771@example.com,East Tylerside,US,07/08/2025 00:00
+US-CUST-00540,Chad,West,chad.west547@example.com,New Melanie,US,04.05.2024
+US-CUST-00541,Tiffany,Nielsen,tiffany.nielsen989@example.com,Melissachester,US,08/18/2025 00:00
+US-CUST-00542,Reginald,Hurley,reginald.hurley377@example.com,Lunaborough,US,21-Jun-2025
+US-CUST-00543,Philip,Bryant,philip.bryant788@example.com,Michaelview,US,31-Jul-2024
+US-CUST-00544,Adam,Mahoney,adam.mahoney515@example.com,Port Joshua,US,16-Dec-2025
+US-CUST-00545,Allison,Johnson,allison.johnson990@example.com,Olsenside,US,11/28/2023 00:00
+US-CUST-00546,Cynthia,Williams,cynthia.williams821@example.com,North Robert,US,11.10.2023
+US-CUST-00547,Jeremy,Ballard,jeremy.ballard54@example.com,Maryfurt,US,11.09.2025
+US-CUST-00548,Peter,Nichols,peter.nichols568@example.com,Port Thomas,US,2023-07-30 00:00:00
+US-CUST-00549,Jacob,Boyd,jacob.boyd292@example.com,Howellview,US,06/21/2023 00:00
+US-CUST-00550,Dana,Lee,dana.lee280@example.com,New Kristinaton,US,07/09/2025 00:00
+US-CUST-00551,Alexis,Hicks,alexis.hicks851@example.com,South Kimberly,US,2025-06-14 00:00:00
+US-CUST-00552,Vincent,Navarro,vincent.navarro970@example.com,South James,US,30-Mar-2024
+US-CUST-00553,Jennifer,Hoover,jennifer.hoover906@example.com,Douglasport,US,2024-12-16 00:00:00
+US-CUST-00554,Gavin,Henry,gavin.henry425@example.com,Johnsonmouth,US,20-Apr-2023
+US-CUST-00555,Allen,Daniels,allen.daniels515@example.com,East Brandonmouth,US,02/04/2025 00:00
+US-CUST-00556,Michelle,Bradshaw,michelle.bradshaw396@example.com,Jesusburgh,US,17.06.2023
+US-CUST-00557,Kathleen,Bowers,kathleen.bowers230@example.com,Johnfort,US,27.02.2023
+US-CUST-00558,Nicholas,Williams,nicholas.williams954@example.com,Hoodside,US,22.07.2023
+US-CUST-00559,Marissa,Nguyen,marissa.nguyen811@example.com,Lake Jennifertown,US,10/27/2023 00:00
+US-CUST-00560,Robin,Martinez,robin.martinez40@example.com,Humphreychester,US,10-Aug-2024
+US-CUST-00561,Kathleen,Joseph,kathleen.joseph713@example.com,Cooperton,US,12-Oct-2023
+US-CUST-00562,Sarah,Hill,sarah.hill460@example.com,New Stacyborough,US,2023-01-11 00:00:00
+US-CUST-00563,Charles,Fitzpatrick,charles.fitzpatrick20@example.com,Bennettville,US,06/08/2024 00:00
+US-CUST-00564,Monica,Woods,monica.woods856@example.com,Tonytown,US,03-Nov-2023
+US-CUST-00565,Colleen,Spence,colleen.spence114@example.com,Sanchezfort,US,08/13/2024 00:00
+US-CUST-00566,Angela,Simpson,angela.simpson309@example.com,West Rebekahside,US,2023-09-07 00:00:00
+US-CUST-00567,Annette,Doyle,annette.doyle245@example.com,South Courtney,US,09-May-2025
+US-CUST-00568,Steven,Snow,steven.snow65@example.com,Pottsville,US,16-Aug-2023
+US-CUST-00569,Amanda,Dennis,amanda.dennis612@example.com,West Nicole,US,02/03/2023 00:00
+US-CUST-00570,Samantha,Moreno,samantha.moreno736@example.com,Susanberg,US,22.10.2023
+US-CUST-00571,Michael,Mccarthy,michael.mccarthy440@example.com,New Lucas,US,04.01.2023
+US-CUST-00572,Kimberly,Hamilton,kimberly.hamilton247@example.com,Leonardburgh,US,05/03/2025 00:00
+US-CUST-00573,Jonathan,Stone,jonathan.stone681@example.com,Port Alan,US,25.06.2023
+US-CUST-00574,John,Woods,john.woods70@example.com,Port Kevin,US,2025-12-13 00:00:00
+US-CUST-00575,Robert,Jackson,robert.jackson400@example.com,North Miguelside,US,2025-08-20 00:00:00
+US-CUST-00576,Amanda,Mills,amanda.mills651@example.com,Jenniferport,US,03.03.2025
+US-CUST-00577,Tammy,Branch,tammy.branch260@example.com,North Jacobhaven,US,03.02.2023
+US-CUST-00578,Sean,Russell,sean.russell808@example.com,New Heather,US,19.05.2023
+US-CUST-00579,Timothy,Mitchell,timothy.mitchell247@example.com,Dyermouth,US,01.08.2023
+US-CUST-00580,Mitchell,Green,mitchell.green137@example.com,South Danielle,US,01.04.2023
+US-CUST-00581,Paul,Perkins,paul.perkins560@example.com,Charlesside,US,11/24/2024 00:00
+US-CUST-00582,Gabriella,Jimenez,gabriella.jimenez851@example.com,South Robertberg,US,09-Aug-2025
+US-CUST-00583,Alison,Parker,alison.parker647@example.com,East Tiffany,US,01/09/2024 00:00
+US-CUST-00584,Brianna,Cabrera,brianna.cabrera65@example.com,Parkberg,US,2025-07-26 00:00:00
+US-CUST-00585,Patrick,Lopez,patrick.lopez301@example.com,Cynthiaton,US,2024-02-17 00:00:00
+US-CUST-00586,Anthony,Graham,anthony.graham811@example.com,Lake Brandy,US,2024-02-13 00:00:00
+US-CUST-00587,Nicole,Hernandez,nicole.hernandez324@example.com,East Michaelchester,US,27-Sep-2024
+US-CUST-00588,Samantha,Blevins,samantha.blevins835@example.com,North Victoriamouth,US,27.08.2025
+US-CUST-00589,Michael,Stephenson,michael.stephenson38@example.com,Evansberg,US,27.01.2024
+US-CUST-00590,Jillian,Levy,jillian.levy366@example.com,Foxside,US,08.04.2023
+US-CUST-00591,Rebecca,Montoya,rebecca.montoya280@example.com,Port Melaniemouth,US,12.09.2023
+US-CUST-00592,Marc,Patton,marc.patton448@example.com,Rodriguezburgh,US,30-Mar-2025
+US-CUST-00593,Nicholas,Cox,nicholas.cox917@example.com,Andreashire,US,02.03.2025
+US-CUST-00594,Megan,Parker,megan.parker998@example.com,East Adrian,US,18-Jan-2024
+US-CUST-00595,Brian,Anderson,brian.anderson709@example.com,Davidhaven,US,15.10.2025
+US-CUST-00596,Anna,Harris,anna.harris947@example.com,Garyville,US,29.11.2025
+US-CUST-00597,Kristi,Stanley,kristi.stanley821@example.com,Josephside,US,19-Jun-2023
+US-CUST-00598,Ralph,Castro,ralph.castro81@example.com,Greenburgh,US,05/31/2025 00:00
+US-CUST-00599,Courtney,Watson,courtney.watson559@example.com,Mcclainbury,US,24.08.2024
+US-CUST-00110-DUP,Kristi,Roman,KRISTI.ROMAN854@EXAMPLE.COM,Jimenezport,US,2024-09-11 00:00:00
+US-CUST-00419-DUP,Alison,Underwood,ALISON.UNDERWOOD764@EXAMPLE.COM,Garybury,US,11-May-2023
+US-CUST-00565-DUP,Colleen,Spence,COLLEEN.SPENCE114@EXAMPLE.COM,Sanchezfort,US,08/13/2024 00:00
+US-CUST-00077-DUP,Lisa,Smith,LISA.SMITH820@EXAMPLE.COM,Payneside,US,08/12/2023 00:00
+US-CUST-00181-DUP,Luis,Cross,luiscross785@example.com,New Tyler,US,03-Dec-2025
+US-CUST-00284-DUP,Keith,Thompson,KEITH.THOMPSON931@EXAMPLE.COM,Lake Samantha,US,06/28/2024 00:00
+US-CUST-00010-DUP,Paul,Higgins,PAUL.HIGGINS285@EXAMPLE.COM,Sarahstad,US,11/15/2023 00:00
+US-CUST-00469-DUP,Andrew,Evans,ANDREW.EVANS47@EXAMPLE.COM,Webertown,US,27-Mar-2024
+US-CUST-00078-DUP,Kimberly,Baker,kimberlybaker197@example.com,West Lindatown,US,25-Jan-2024
+US-CUST-00349-DUP,Jeffrey,Hood,jeffreyhood301@example.com,East Tyler,US,04.01.2025
+US-CUST-00055-DUP,Vincent,Richardson,vincentrichardson779@example.com,New Paulaland,US,12/26/2025 00:00
+US-CUST-00118-DUP,April,Martin,APRIL.MARTIN650@EXAMPLE.COM,Wheelerfort,US,17.05.2025
+US-CUST-00109-DUP,Lisa,Velasquez,lisavelasquez292@example.com,East Kellymouth,US,20-Nov-2023
+US-CUST-00588-DUP,Samantha,Blevins,samanthablevins835@example.com,North Victoriamouth,US,27.08.2025
+US-CUST-00369-DUP,Kara,Rosales,KARA.ROSALES652@EXAMPLE.COM,Port Jessicachester,US,25.01.2024
+US-CUST-00234-DUP,Jeffrey,Peterson,jeffreypeterson345@example.com,North Annabury,US,28-Feb-2023
+US-CUST-00030-DUP,Ryan,Li,RYAN.LI217@EXAMPLE.COM,New Michaelburgh,US,10/06/2024 00:00
+US-CUST-00212-DUP,Dustin,Anderson,dustinanderson245@example.com,Johnsonton,US,16-Sep-2023

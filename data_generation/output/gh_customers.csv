@@ -1,0 +1,619 @@
+customer_id,first_name,last_name,email,city,region,signup_date
+GH-CUST-00000,Kwabena,Sarpong,kwabena.sarpong612@example.com,Cape Coast,GH,2024-02-05 00:00:00
+GH-CUST-00001,Akosua,Nkrumah,akosua.nkrumah748@example.com,Takoradi,GH,06.05.2025
+GH-CUST-00002,Yaw,Agyeman,yaw.agyeman943@example.com,Takoradi,GH,25-Nov-2025
+GH-CUST-00003,Yaw,Darko,yaw.darko478@example.com,Sunyani,GH,18-Aug-2024
+GH-CUST-00004,Kofi,Ofori,kofi.ofori440@example.com,Kumasi,GH,23.01.2023
+GH-CUST-00005,Efua,Darko,efua.darko464@example.com,Takoradi,GH,10-Feb-2023
+GH-CUST-00006,Ama,Baffour,ama.baffour81@example.com,Koforidua,GH,18-Sep-2023
+GH-CUST-00007,Efua,Frimpong,efua.frimpong428@example.com,Accra,GH,02/06/2025 00:00
+GH-CUST-00008,Kofi,Appiah,kofi.appiah465@example.com,Kumasi,GH,18.12.2025
+GH-CUST-00009,Kwame,Baffour,kwame.baffour789@example.com,Bolgatanga,GH,07/12/2025 00:00
+GH-CUST-00010,Gifty,Ofori,gifty.ofori145@example.com,Koforidua,GH,18.04.2023
+GH-CUST-00011,Kofi,Ofori,kofi.ofori628@example.com,Tamale,GH,2024-02-05 00:00:00
+GH-CUST-00012,Gifty,Boateng,gifty.boateng911@example.com,Sunyani,GH,27-Jun-2025
+GH-CUST-00013,Abena,Baffour,abena.baffour504@example.com,Cape Coast,GH,2024-06-13 00:00:00
+GH-CUST-00014,Yaw,Osei,yaw.osei353@example.com,Tema,GH,2024-05-20 00:00:00
+GH-CUST-00015,Nana,Nkrumah,nana.nkrumah819@example.com,Tema,GH,03.01.2023
+GH-CUST-00016,Esi,Boateng,esi.boateng115@example.com,Sunyani,GH,08/27/2024 00:00
+GH-CUST-00017,Comfort,Amoah,comfort.amoah233@example.com,Accra,GH,08/12/2025 00:00
+GH-CUST-00018,Esi,Frimpong,esi.frimpong289@example.com,Tema,GH,08-Dec-2024
+GH-CUST-00019,Yaa,Asante,yaa.asante302@example.com,Bolgatanga,GH,02.07.2023
+GH-CUST-00020,Kojo,Sarpong,kojo.sarpong632@example.com,Accra,GH,23-Dec-2024
+GH-CUST-00021,Kwaku,Ofori,kwaku.ofori224@example.com,Accra,GH,09.11.2025
+GH-CUST-00022,Abena,Appiah,abena.appiah774@example.com,Ho,GH,12/06/2025 00:00
+GH-CUST-00023,Kwaku,Boateng,kwaku.boateng153@example.com,Takoradi,GH,25-May-2025
+GH-CUST-00024,Grace,Agyeman,grace.agyeman208@example.com,Cape Coast,GH,05.01.2025
+GH-CUST-00025,Gifty,Boateng,gifty.boateng475@example.com,Bolgatanga,GH,12-Aug-2025
+GH-CUST-00026,Ama,Sarpong,ama.sarpong954@example.com,Ho,GH,03/13/2025 00:00
+GH-CUST-00027,Kojo,Nkrumah,kojo.nkrumah233@example.com,Cape Coast,GH,25-Sep-2025
+GH-CUST-00028,Kwaku,Ofori,kwaku.ofori181@example.com,Sunyani,GH,26-Oct-2025
+GH-CUST-00029,Yaw,Owusu,yaw.owusu832@example.com,Koforidua,GH,26-Aug-2023
+GH-CUST-00030,Adjoa,Agyeman,adjoa.agyeman612@example.com,Tema,GH,12.11.2024
+GH-CUST-00031,Kwaku,Amoah,kwaku.amoah827@example.com,Tema,GH,08-Apr-2023
+GH-CUST-00032,Prince,Nkrumah,prince.nkrumah798@example.com,Ho,GH,21.09.2023
+GH-CUST-00033,Comfort,Ofori,comfort.ofori801@example.com,Takoradi,GH,06-May-2023
+GH-CUST-00034,Kojo,Nkrumah,kojo.nkrumah712@example.com,Tema,GH,2024-07-20 00:00:00
+GH-CUST-00035,Nana,Agyeman,nana.agyeman307@example.com,Bolgatanga,GH,2024-03-25 00:00:00
+GH-CUST-00036,Akosua,Boateng,akosua.boateng163@example.com,Cape Coast,GH,26.05.2023
+GH-CUST-00037,Efua,Adjei,efua.adjei594@example.com,Accra,GH,02-Apr-2025
+GH-CUST-00038,Esi,Osei,esi.osei932@example.com,Cape Coast,GH,20.10.2023
+GH-CUST-00039,Emmanuel,Amoah,emmanuel.amoah317@example.com,Accra,GH,16.02.2023
+GH-CUST-00040,Kwabena,Frimpong,kwabena.frimpong951@example.com,Koforidua,GH,02/10/2023 00:00
+GH-CUST-00041,Adjoa,Amoah,adjoa.amoah442@example.com,Koforidua,GH,02/17/2025 00:00
+GH-CUST-00042,Kwesi,Adu,kwesi.adu585@example.com,Koforidua,GH,27.09.2025
+GH-CUST-00043,Kofi,Mensah,kofi.mensah29@example.com,Bolgatanga,GH,20.03.2025
+GH-CUST-00044,Yaw,Adjei,yaw.adjei500@example.com,Accra,GH,12/14/2023 00:00
+GH-CUST-00045,Efua,Ofori,efua.ofori372@example.com,Kumasi,GH,27.03.2023
+GH-CUST-00046,Yaw,Owusu,yaw.owusu52@example.com,Koforidua,GH,11/17/2025 00:00
+GH-CUST-00047,Prince,Osei,prince.osei54@example.com,Tamale,GH,21.10.2023
+GH-CUST-00048,Kofi,Agyeman,kofi.agyeman30@example.com,Bolgatanga,GH,01/09/2023 00:00
+GH-CUST-00049,Prince,Sarpong,prince.sarpong66@example.com,Accra,GH,11.07.2023
+GH-CUST-00050,Nana,Amoah,nana.amoah181@example.com,Koforidua,GH,23.04.2023
+GH-CUST-00051,Adjoa,Nkrumah,adjoa.nkrumah247@example.com,Tamale,GH,09/13/2025 00:00
+GH-CUST-00052,Gifty,Mensah,gifty.mensah628@example.com,Cape Coast,GH,09.10.2025
+GH-CUST-00053,Emmanuel,Adjei,emmanuel.adjei386@example.com,Tema,GH,02.08.2024
+GH-CUST-00054,Kojo,Baffour,kojo.baffour201@example.com,Takoradi,GH,03/07/2024 00:00
+GH-CUST-00055,Comfort,Adjei,comfort.adjei351@example.com,Sunyani,GH,2023-05-16 00:00:00
+GH-CUST-00056,Kwaku,Adjei,kwaku.adjei205@example.com,Ho,GH,04/19/2023 00:00
+GH-CUST-00057,Akosua,Owusu,akosua.owusu43@example.com,Takoradi,GH,29-Aug-2023
+GH-CUST-00058,Kwesi,Baffour,kwesi.baffour678@example.com,Cape Coast,GH,2024-06-22 00:00:00
+GH-CUST-00059,Kwaku,Sarpong,kwaku.sarpong249@example.com,Bolgatanga,GH,2024-08-18 00:00:00
+GH-CUST-00060,Emmanuel,Frimpong,emmanuel.frimpong209@example.com,Takoradi,GH,08/06/2024 00:00
+GH-CUST-00061,Kwesi,Adu,kwesi.adu561@example.com,Kumasi,GH,2023-11-08 00:00:00
+GH-CUST-00062,Comfort,Appiah,comfort.appiah821@example.com,Kumasi,GH,2025-02-23 00:00:00
+GH-CUST-00063,Yaa,Agyeman,yaa.agyeman169@example.com,Bolgatanga,GH,2024-03-26 00:00:00
+GH-CUST-00064,Grace,Baffour,grace.baffour651@example.com,Koforidua,GH,2025-12-03 00:00:00
+GH-CUST-00065,Kofi,Mensah,kofi.mensah822@example.com,Ho,GH,05/05/2023 00:00
+GH-CUST-00066,Ama,Darko,ama.darko592@example.com,Sunyani,GH,2025-09-09 00:00:00
+GH-CUST-00067,Kojo,Sarpong,kojo.sarpong623@example.com,Koforidua,GH,10/10/2024 00:00
+GH-CUST-00068,Adjoa,Ofori,adjoa.ofori277@example.com,Cape Coast,GH,2023-05-11 00:00:00
+GH-CUST-00069,Gifty,Agyeman,gifty.agyeman299@example.com,Tema,GH,07/13/2025 00:00
+GH-CUST-00070,Grace,Baffour,grace.baffour607@example.com,Takoradi,GH,03/14/2025 00:00
+GH-CUST-00071,Akosua,Mensah,akosua.mensah238@example.com,Tamale,GH,25.10.2025
+GH-CUST-00072,Gifty,Osei,gifty.osei231@example.com,Accra,GH,25-May-2023
+GH-CUST-00073,Adjoa,Owusu,adjoa.owusu329@example.com,Cape Coast,GH,2023-01-21 00:00:00
+GH-CUST-00074,Gifty,Mensah,gifty.mensah638@example.com,Takoradi,GH,17-Jan-2025
+GH-CUST-00075,Kojo,Baffour,kojo.baffour248@example.com,Bolgatanga,GH,11/27/2024 00:00
+GH-CUST-00076,Prince,Owusu,prince.owusu393@example.com,Accra,GH,09/11/2025 00:00
+GH-CUST-00077,Ama,Agyeman,ama.agyeman189@example.com,Ho,GH,29-Jun-2025
+GH-CUST-00078,Abena,Agyeman,abena.agyeman554@example.com,Cape Coast,GH,04/18/2023 00:00
+GH-CUST-00079,Akosua,Baffour,akosua.baffour534@example.com,Sunyani,GH,12/17/2023 00:00
+GH-CUST-00080,Comfort,Sarpong,comfort.sarpong354@example.com,Ho,GH,11/09/2024 00:00
+GH-CUST-00081,Kwame,Owusu,kwame.owusu697@example.com,Accra,GH,18.08.2023
+GH-CUST-00082,Akosua,Adjei,akosua.adjei564@example.com,Cape Coast,GH,26-Sep-2024
+GH-CUST-00083,Gifty,Osei,gifty.osei458@example.com,Accra,GH,2024-07-09 00:00:00
+GH-CUST-00084,Adjoa,Boateng,adjoa.boateng877@example.com,Ho,GH,2025-08-12 00:00:00
+GH-CUST-00085,Kwaku,Osei,kwaku.osei106@example.com,Tamale,GH,14-Jul-2025
+GH-CUST-00086,Abena,Asante,abena.asante353@example.com,Tamale,GH,05/29/2024 00:00
+GH-CUST-00087,Prince,Owusu,prince.owusu985@example.com,Accra,GH,03/03/2024 00:00
+GH-CUST-00088,Kwame,Amoah,kwame.amoah741@example.com,Kumasi,GH,04/17/2023 00:00
+GH-CUST-00089,Emmanuel,Osei,emmanuel.osei781@example.com,Ho,GH,2023-05-19 00:00:00
+GH-CUST-00090,Kojo,Adu,kojo.adu610@example.com,Tamale,GH,30-Nov-2024
+GH-CUST-00091,Abena,Sarpong,abena.sarpong160@example.com,Kumasi,GH,06/02/2025 00:00
+GH-CUST-00092,Nana,Asante,nana.asante506@example.com,Accra,GH,05/23/2025 00:00
+GH-CUST-00093,Kwaku,Mensah,kwaku.mensah163@example.com,Tamale,GH,2024-12-15 00:00:00
+GH-CUST-00094,Nana,Baffour,nana.baffour448@example.com,Sunyani,GH,12/26/2025 00:00
+GH-CUST-00095,Yaw,Appiah,yaw.appiah293@example.com,Koforidua,GH,05/05/2025 00:00
+GH-CUST-00096,Yaw,Agyeman,yaw.agyeman311@example.com,Takoradi,GH,16.01.2025
+GH-CUST-00097,Comfort,Appiah,comfort.appiah970@example.com,Bolgatanga,GH,22-Jan-2025
+GH-CUST-00098,Adjoa,Baffour,adjoa.baffour66@example.com,Tamale,GH,17.12.2023
+GH-CUST-00099,Gifty,Asante,gifty.asante918@example.com,Bolgatanga,GH,14.09.2024
+GH-CUST-00100,Kofi,Adjei,kofi.adjei374@example.com,Koforidua,GH,02-Mar-2024
+GH-CUST-00101,Yaa,Agyeman,yaa.agyeman780@example.com,Koforidua,GH,26.12.2023
+GH-CUST-00102,Yaa,Adjei,yaa.adjei363@example.com,Ho,GH,27.05.2025
+GH-CUST-00103,Emmanuel,Ofori,emmanuel.ofori598@example.com,Sunyani,GH,03.01.2025
+GH-CUST-00104,Emmanuel,Frimpong,emmanuel.frimpong330@example.com,Accra,GH,29-Aug-2023
+GH-CUST-00105,Adjoa,Asante,adjoa.asante476@example.com,Sunyani,GH,26.04.2025
+GH-CUST-00106,Abena,Owusu,abena.owusu384@example.com,Kumasi,GH,11.01.2023
+GH-CUST-00107,Gifty,Osei,gifty.osei423@example.com,Tema,GH,27-Oct-2025
+GH-CUST-00108,Kwame,Adjei,kwame.adjei435@example.com,Tamale,GH,21-Jun-2024
+GH-CUST-00109,Gifty,Frimpong,gifty.frimpong366@example.com,Bolgatanga,GH,2023-04-05 00:00:00
+GH-CUST-00110,Akosua,Baffour,akosua.baffour860@example.com,Sunyani,GH,14-Jan-2023
+GH-CUST-00111,Ama,Appiah,ama.appiah381@example.com,Ho,GH,06.03.2023
+GH-CUST-00112,Yaw,Ofori,yaw.ofori782@example.com,Tamale,GH,09.08.2025
+GH-CUST-00113,Kwame,Appiah,kwame.appiah655@example.com,Accra,GH,11/20/2023 00:00
+GH-CUST-00114,Abena,Appiah,abena.appiah189@example.com,Kumasi,GH,2024-04-04 00:00:00
+GH-CUST-00115,Kwabena,Adjei,kwabena.adjei717@example.com,Cape Coast,GH,02/21/2025 00:00
+GH-CUST-00116,Emmanuel,Baffour,emmanuel.baffour332@example.com,Takoradi,GH,16.07.2023
+GH-CUST-00117,Grace,Adu,grace.adu605@example.com,Cape Coast,GH,2025-08-23 00:00:00
+GH-CUST-00118,Abena,Boateng,abena.boateng690@example.com,Tamale,GH,04.11.2024
+GH-CUST-00119,Adjoa,Darko,adjoa.darko321@example.com,Ho,GH,04/02/2024 00:00
+GH-CUST-00120,Abena,Adjei,abena.adjei624@example.com,Bolgatanga,GH,17-May-2023
+GH-CUST-00121,Prince,Sarpong,prince.sarpong967@example.com,Takoradi,GH,14.12.2024
+GH-CUST-00122,Kojo,Osei,kojo.osei733@example.com,Ho,GH,27.08.2025
+GH-CUST-00123,Kofi,Osei,kofi.osei586@example.com,Accra,GH,2023-04-01 00:00:00
+GH-CUST-00124,Comfort,Owusu,comfort.owusu684@example.com,Koforidua,GH,10-Sep-2024
+GH-CUST-00125,Ama,Owusu,ama.owusu82@example.com,Kumasi,GH,11-Aug-2024
+GH-CUST-00126,Ama,Agyeman,ama.agyeman872@example.com,Sunyani,GH,2023-02-22 00:00:00
+GH-CUST-00127,Kwesi,Nkrumah,kwesi.nkrumah289@example.com,Accra,GH,21-Oct-2024
+GH-CUST-00128,Yaw,Adu,yaw.adu64@example.com,Cape Coast,GH,27.02.2023
+GH-CUST-00129,Gifty,Frimpong,gifty.frimpong796@example.com,Tema,GH,11/30/2025 00:00
+GH-CUST-00130,Efua,Adjei,efua.adjei615@example.com,Tema,GH,07/12/2024 00:00
+GH-CUST-00131,Kofi,Mensah,kofi.mensah167@example.com,Cape Coast,GH,04.02.2023
+GH-CUST-00132,Kofi,Appiah,kofi.appiah643@example.com,Ho,GH,13.04.2025
+GH-CUST-00133,Efua,Asante,efua.asante561@example.com,Koforidua,GH,06/26/2025 00:00
+GH-CUST-00134,Abena,Nkrumah,abena.nkrumah724@example.com,Accra,GH,03.02.2025
+GH-CUST-00135,Yaw,Nkrumah,yaw.nkrumah621@example.com,Kumasi,GH,04/09/2023 00:00
+GH-CUST-00136,Nana,Sarpong,nana.sarpong778@example.com,Koforidua,GH,2025-08-12 00:00:00
+GH-CUST-00137,Nana,Baffour,nana.baffour879@example.com,Accra,GH,2025-04-03 00:00:00
+GH-CUST-00138,Yaa,Amoah,yaa.amoah217@example.com,Kumasi,GH,2025-01-17 00:00:00
+GH-CUST-00139,Kwabena,Amoah,kwabena.amoah210@example.com,Ho,GH,16.02.2025
+GH-CUST-00140,Adjoa,Sarpong,adjoa.sarpong993@example.com,Ho,GH,24-Nov-2023
+GH-CUST-00141,Nana,Asante,nana.asante598@example.com,Sunyani,GH,09/27/2023 00:00
+GH-CUST-00142,Yaa,Boateng,yaa.boateng398@example.com,Tema,GH,2024-05-30 00:00:00
+GH-CUST-00143,Yaa,Mensah,yaa.mensah661@example.com,Ho,GH,31-Dec-2023
+GH-CUST-00144,Yaa,Boateng,yaa.boateng12@example.com,Accra,GH,12/14/2023 00:00
+GH-CUST-00145,Adjoa,Owusu,adjoa.owusu28@example.com,Tamale,GH,14.06.2024
+GH-CUST-00146,Prince,Baffour,prince.baffour113@example.com,Bolgatanga,GH,15-Nov-2024
+GH-CUST-00147,Kwaku,Amoah,kwaku.amoah268@example.com,Bolgatanga,GH,03.02.2024
+GH-CUST-00148,Yaa,Agyeman,yaa.agyeman489@example.com,Takoradi,GH,04.01.2025
+GH-CUST-00149,Prince,Owusu,prince.owusu750@example.com,Takoradi,GH,27-Aug-2025
+GH-CUST-00150,Kwame,Boateng,kwame.boateng529@example.com,Ho,GH,2023-07-01 00:00:00
+GH-CUST-00151,Yaw,Darko,yaw.darko816@example.com,Takoradi,GH,27.08.2025
+GH-CUST-00152,Kwabena,Agyeman,kwabena.agyeman97@example.com,Takoradi,GH,06/28/2024 00:00
+GH-CUST-00153,Kwabena,Amoah,kwabena.amoah645@example.com,Kumasi,GH,2025-06-24 00:00:00
+GH-CUST-00154,Nana,Boateng,nana.boateng502@example.com,Tamale,GH,27-Oct-2025
+GH-CUST-00155,Gifty,Ofori,gifty.ofori252@example.com,Takoradi,GH,10-Nov-2025
+GH-CUST-00156,Gifty,Asante,gifty.asante743@example.com,Ho,GH,05/21/2023 00:00
+GH-CUST-00157,Kwabena,Appiah,kwabena.appiah851@example.com,Accra,GH,11/05/2025 00:00
+GH-CUST-00158,Kwabena,Asante,kwabena.asante289@example.com,Cape Coast,GH,29.11.2025
+GH-CUST-00159,Ama,Nkrumah,ama.nkrumah619@example.com,Kumasi,GH,2025-10-02 00:00:00
+GH-CUST-00160,Yaa,Amoah,yaa.amoah362@example.com,Bolgatanga,GH,2025-09-01 00:00:00
+GH-CUST-00161,Kwesi,Adjei,kwesi.adjei685@example.com,Tamale,GH,2024-11-28 00:00:00
+GH-CUST-00162,Kwame,Appiah,kwame.appiah302@example.com,Ho,GH,12/03/2023 00:00
+GH-CUST-00163,Efua,Boateng,efua.boateng45@example.com,Koforidua,GH,09/12/2023 00:00
+GH-CUST-00164,Yaw,Darko,yaw.darko505@example.com,Koforidua,GH,07/18/2024 00:00
+GH-CUST-00165,Efua,Asante,efua.asante912@example.com,Takoradi,GH,02.05.2023
+GH-CUST-00166,Emmanuel,Appiah,emmanuel.appiah725@example.com,Tema,GH,06-Jul-2023
+GH-CUST-00167,Ama,Darko,ama.darko944@example.com,Takoradi,GH,2024-12-12 00:00:00
+GH-CUST-00168,Ama,Ofori,ama.ofori168@example.com,Ho,GH,2023-11-29 00:00:00
+GH-CUST-00169,Kofi,Nkrumah,kofi.nkrumah628@example.com,Tamale,GH,23-Sep-2025
+GH-CUST-00170,Comfort,Sarpong,comfort.sarpong414@example.com,Cape Coast,GH,2023-12-26 00:00:00
+GH-CUST-00171,Kofi,Baffour,kofi.baffour9@example.com,Koforidua,GH,20-Apr-2023
+GH-CUST-00172,Kwabena,Asante,kwabena.asante141@example.com,Ho,GH,08/05/2023 00:00
+GH-CUST-00173,Efua,Mensah,efua.mensah860@example.com,Koforidua,GH,12-Feb-2025
+GH-CUST-00174,Akosua,Nkrumah,akosua.nkrumah399@example.com,Takoradi,GH,11/09/2023 00:00
+GH-CUST-00175,Yaw,Darko,yaw.darko45@example.com,Tema,GH,2023-07-25 00:00:00
+GH-CUST-00176,Ama,Amoah,ama.amoah947@example.com,Cape Coast,GH,11.02.2025
+GH-CUST-00177,Kwame,Osei,kwame.osei85@example.com,Bolgatanga,GH,14.12.2025
+GH-CUST-00178,Grace,Amoah,grace.amoah279@example.com,Tema,GH,23-Jul-2024
+GH-CUST-00179,Kojo,Sarpong,kojo.sarpong478@example.com,Cape Coast,GH,2023-10-28 00:00:00
+GH-CUST-00180,Akosua,Frimpong,akosua.frimpong806@example.com,Cape Coast,GH,09/19/2024 00:00
+GH-CUST-00181,Yaw,Adu,yaw.adu422@example.com,Tema,GH,17.04.2024
+GH-CUST-00182,Prince,Mensah,prince.mensah833@example.com,Cape Coast,GH,25.02.2025
+GH-CUST-00183,Yaw,Adjei,yaw.adjei265@example.com,Cape Coast,GH,16-Sep-2024
+GH-CUST-00184,Adjoa,Frimpong,adjoa.frimpong530@example.com,Cape Coast,GH,20.05.2023
+GH-CUST-00185,Abena,Appiah,abena.appiah138@example.com,Tema,GH,13-Nov-2025
+GH-CUST-00186,Akosua,Baffour,akosua.baffour886@example.com,Tema,GH,02/05/2023 00:00
+GH-CUST-00187,Kwame,Amoah,kwame.amoah85@example.com,Takoradi,GH,01.09.2025
+GH-CUST-00188,Kojo,Owusu,kojo.owusu962@example.com,Takoradi,GH,07/20/2023 00:00
+GH-CUST-00189,Yaa,Frimpong,yaa.frimpong267@example.com,Tema,GH,12/15/2025 00:00
+GH-CUST-00190,Gifty,Agyeman,gifty.agyeman497@example.com,Koforidua,GH,09/17/2025 00:00
+GH-CUST-00191,Nana,Boateng,nana.boateng258@example.com,Tema,GH,11/07/2023 00:00
+GH-CUST-00192,Efua,Boateng,efua.boateng325@example.com,Tamale,GH,01/04/2023 00:00
+GH-CUST-00193,Grace,Agyeman,grace.agyeman776@example.com,Cape Coast,GH,07/20/2023 00:00
+GH-CUST-00194,Akosua,Frimpong,akosua.frimpong185@example.com,Tamale,GH,15-Apr-2024
+GH-CUST-00195,Kojo,Asante,kojo.asante305@example.com,Koforidua,GH,21-May-2023
+GH-CUST-00196,Adjoa,Agyeman,adjoa.agyeman51@example.com,Koforidua,GH,17-Apr-2023
+GH-CUST-00197,Ama,Appiah,ama.appiah611@example.com,Takoradi,GH,29-Sep-2025
+GH-CUST-00198,Kwaku,Darko,kwaku.darko164@example.com,Tema,GH,2023-07-18 00:00:00
+GH-CUST-00199,Grace,Nkrumah,grace.nkrumah194@example.com,Ho,GH,31.07.2025
+GH-CUST-00200,Adjoa,Appiah,adjoa.appiah967@example.com,Sunyani,GH,04/08/2024 00:00
+GH-CUST-00201,Kofi,Amoah,kofi.amoah901@example.com,Tema,GH,2023-07-24 00:00:00
+GH-CUST-00202,Comfort,Sarpong,comfort.sarpong578@example.com,Ho,GH,2025-11-22 00:00:00
+GH-CUST-00203,Grace,Boateng,grace.boateng819@example.com,Kumasi,GH,07/07/2024 00:00
+GH-CUST-00204,Comfort,Boateng,comfort.boateng838@example.com,Koforidua,GH,26.04.2024
+GH-CUST-00205,Kojo,Mensah,kojo.mensah262@example.com,Sunyani,GH,01/24/2024 00:00
+GH-CUST-00206,Prince,Nkrumah,prince.nkrumah193@example.com,Tema,GH,09/24/2024 00:00
+GH-CUST-00207,Kwaku,Adjei,kwaku.adjei694@example.com,Bolgatanga,GH,2025-07-18 00:00:00
+GH-CUST-00208,Gifty,Adu,gifty.adu641@example.com,Tamale,GH,26.01.2023
+GH-CUST-00209,Kwesi,Agyeman,kwesi.agyeman299@example.com,Tamale,GH,31.10.2023
+GH-CUST-00210,Kwaku,Asante,kwaku.asante628@example.com,Accra,GH,15-Jun-2023
+GH-CUST-00211,Ama,Boateng,ama.boateng198@example.com,Sunyani,GH,03/29/2024 00:00
+GH-CUST-00212,Akosua,Darko,akosua.darko674@example.com,Accra,GH,22-Nov-2025
+GH-CUST-00213,Kwabena,Adjei,kwabena.adjei492@example.com,Cape Coast,GH,10/26/2025 00:00
+GH-CUST-00214,Prince,Mensah,prince.mensah122@example.com,Koforidua,GH,2023-10-05 00:00:00
+GH-CUST-00215,Kwabena,Sarpong,kwabena.sarpong635@example.com,Koforidua,GH,2025-06-03 00:00:00
+GH-CUST-00216,Kwesi,Osei,kwesi.osei872@example.com,Cape Coast,GH,08/17/2023 00:00
+GH-CUST-00217,Emmanuel,Appiah,emmanuel.appiah298@example.com,Cape Coast,GH,01/07/2025 00:00
+GH-CUST-00218,Kwesi,Adu,kwesi.adu585@example.com,Sunyani,GH,07.06.2023
+GH-CUST-00219,Kojo,Agyeman,kojo.agyeman93@example.com,Kumasi,GH,07-Aug-2025
+GH-CUST-00220,Grace,Sarpong,grace.sarpong437@example.com,Kumasi,GH,10.04.2025
+GH-CUST-00221,Kwesi,Boateng,kwesi.boateng50@example.com,Ho,GH,18.04.2023
+GH-CUST-00222,Efua,Adjei,efua.adjei770@example.com,Accra,GH,22-Oct-2023
+GH-CUST-00223,Nana,Baffour,nana.baffour120@example.com,Accra,GH,09/16/2023 00:00
+GH-CUST-00224,Yaw,Baffour,yaw.baffour348@example.com,Tamale,GH,23.08.2025
+GH-CUST-00225,Kofi,Mensah,kofi.mensah20@example.com,Accra,GH,17-Mar-2024
+GH-CUST-00226,Yaa,Sarpong,yaa.sarpong882@example.com,Koforidua,GH,10/01/2024 00:00
+GH-CUST-00227,Prince,Frimpong,prince.frimpong562@example.com,Takoradi,GH,07-Jul-2024
+GH-CUST-00228,Kofi,Amoah,kofi.amoah515@example.com,Tema,GH,02-Jun-2023
+GH-CUST-00229,Ama,Asante,ama.asante110@example.com,Tamale,GH,2023-12-23 00:00:00
+GH-CUST-00230,Comfort,Appiah,comfort.appiah417@example.com,Takoradi,GH,01-Feb-2024
+GH-CUST-00231,Kojo,Nkrumah,kojo.nkrumah96@example.com,Kumasi,GH,2023-10-13 00:00:00
+GH-CUST-00232,Kwaku,Owusu,kwaku.owusu158@example.com,Accra,GH,02/18/2025 00:00
+GH-CUST-00233,Ama,Adu,ama.adu372@example.com,Accra,GH,17-Mar-2023
+GH-CUST-00234,Nana,Adjei,nana.adjei741@example.com,Ho,GH,24.12.2023
+GH-CUST-00235,Kwabena,Osei,kwabena.osei164@example.com,Bolgatanga,GH,29.10.2024
+GH-CUST-00236,Esi,Nkrumah,esi.nkrumah507@example.com,Cape Coast,GH,02/09/2025 00:00
+GH-CUST-00237,Kofi,Ofori,kofi.ofori95@example.com,Bolgatanga,GH,31.08.2024
+GH-CUST-00238,Adjoa,Asante,adjoa.asante395@example.com,Takoradi,GH,11/23/2024 00:00
+GH-CUST-00239,Adjoa,Adjei,adjoa.adjei854@example.com,Tamale,GH,22-Feb-2024
+GH-CUST-00240,Kwabena,Amoah,kwabena.amoah435@example.com,Sunyani,GH,14-Jul-2025
+GH-CUST-00241,Kojo,Appiah,kojo.appiah934@example.com,Sunyani,GH,13-Sep-2025
+GH-CUST-00242,Kofi,Frimpong,kofi.frimpong660@example.com,Cape Coast,GH,2025-06-20 00:00:00
+GH-CUST-00243,Efua,Sarpong,efua.sarpong963@example.com,Tema,GH,12/07/2023 00:00
+GH-CUST-00244,Akosua,Appiah,akosua.appiah369@example.com,Accra,GH,24.05.2025
+GH-CUST-00245,Kojo,Sarpong,kojo.sarpong619@example.com,Cape Coast,GH,2025-07-10 00:00:00
+GH-CUST-00246,Esi,Amoah,esi.amoah494@example.com,Takoradi,GH,20-Jun-2023
+GH-CUST-00247,Kwesi,Agyeman,kwesi.agyeman871@example.com,Cape Coast,GH,13-Nov-2025
+GH-CUST-00248,Ama,Owusu,ama.owusu439@example.com,Kumasi,GH,2023-04-06 00:00:00
+GH-CUST-00249,Adjoa,Baffour,adjoa.baffour241@example.com,Tema,GH,01/28/2025 00:00
+GH-CUST-00250,Kofi,Boateng,kofi.boateng287@example.com,Tema,GH,11.01.2024
+GH-CUST-00251,Kwame,Owusu,kwame.owusu24@example.com,Tema,GH,06/18/2024 00:00
+GH-CUST-00252,Nana,Asante,nana.asante426@example.com,Ho,GH,02/24/2023 00:00
+GH-CUST-00253,Abena,Sarpong,abena.sarpong515@example.com,Tema,GH,04-Apr-2024
+GH-CUST-00254,Efua,Nkrumah,efua.nkrumah649@example.com,Cape Coast,GH,07.07.2025
+GH-CUST-00255,Gifty,Adu,gifty.adu579@example.com,Bolgatanga,GH,16.09.2025
+GH-CUST-00256,Kojo,Sarpong,kojo.sarpong945@example.com,Cape Coast,GH,2023-11-28 00:00:00
+GH-CUST-00257,Akosua,Agyeman,akosua.agyeman543@example.com,Sunyani,GH,10-Dec-2023
+GH-CUST-00258,Abena,Baffour,abena.baffour262@example.com,Ho,GH,10.10.2025
+GH-CUST-00259,Kwesi,Adu,kwesi.adu883@example.com,Ho,GH,01-Jun-2025
+GH-CUST-00260,Kwabena,Nkrumah,kwabena.nkrumah59@example.com,Takoradi,GH,2025-11-13 00:00:00
+GH-CUST-00261,Abena,Mensah,abena.mensah880@example.com,Ho,GH,07-Apr-2025
+GH-CUST-00262,Grace,Amoah,grace.amoah111@example.com,Tema,GH,08/09/2023 00:00
+GH-CUST-00263,Kwabena,Adjei,kwabena.adjei494@example.com,Sunyani,GH,05/26/2023 00:00
+GH-CUST-00264,Nana,Nkrumah,nana.nkrumah222@example.com,Tamale,GH,2025-06-18 00:00:00
+GH-CUST-00265,Kwame,Mensah,kwame.mensah746@example.com,Tamale,GH,23-Jan-2025
+GH-CUST-00266,Kwaku,Nkrumah,kwaku.nkrumah821@example.com,Kumasi,GH,22.09.2025
+GH-CUST-00267,Nana,Asante,nana.asante209@example.com,Tema,GH,2024-01-06 00:00:00
+GH-CUST-00268,Prince,Darko,prince.darko79@example.com,Sunyani,GH,2024-03-29 00:00:00
+GH-CUST-00269,Kofi,Adjei,kofi.adjei827@example.com,Cape Coast,GH,14.04.2025
+GH-CUST-00270,Yaw,Frimpong,yaw.frimpong728@example.com,Tamale,GH,2024-08-14 00:00:00
+GH-CUST-00271,Kwesi,Agyeman,kwesi.agyeman505@example.com,Sunyani,GH,2024-11-02 00:00:00
+GH-CUST-00272,Esi,Darko,esi.darko727@example.com,Tamale,GH,09.12.2025
+GH-CUST-00273,Kwesi,Owusu,kwesi.owusu468@example.com,Kumasi,GH,06/08/2023 00:00
+GH-CUST-00274,Kwesi,Darko,kwesi.darko29@example.com,Koforidua,GH,2025-07-30 00:00:00
+GH-CUST-00275,Grace,Amoah,grace.amoah854@example.com,Sunyani,GH,2025-07-28 00:00:00
+GH-CUST-00276,Comfort,Adu,comfort.adu819@example.com,Koforidua,GH,24-Apr-2024
+GH-CUST-00277,Kwaku,Boateng,kwaku.boateng822@example.com,Sunyani,GH,21-Oct-2023
+GH-CUST-00278,Adjoa,Appiah,adjoa.appiah317@example.com,Koforidua,GH,2025-04-27 00:00:00
+GH-CUST-00279,Kofi,Asante,kofi.asante993@example.com,Accra,GH,29-Mar-2025
+GH-CUST-00280,Emmanuel,Adjei,emmanuel.adjei2@example.com,Accra,GH,2025-08-04 00:00:00
+GH-CUST-00281,Kofi,Agyeman,kofi.agyeman380@example.com,Tamale,GH,26-Mar-2025
+GH-CUST-00282,Kofi,Mensah,kofi.mensah97@example.com,Sunyani,GH,07.01.2023
+GH-CUST-00283,Ama,Adu,ama.adu7@example.com,Accra,GH,2025-10-20 00:00:00
+GH-CUST-00284,Kwame,Boateng,kwame.boateng942@example.com,Accra,GH,11/03/2023 00:00
+GH-CUST-00285,Kojo,Boateng,kojo.boateng720@example.com,Tamale,GH,03/21/2025 00:00
+GH-CUST-00286,Gifty,Asante,gifty.asante99@example.com,Tema,GH,2023-03-15 00:00:00
+GH-CUST-00287,Kofi,Owusu,kofi.owusu580@example.com,Sunyani,GH,06.02.2024
+GH-CUST-00288,Prince,Boateng,prince.boateng802@example.com,Accra,GH,21-Feb-2025
+GH-CUST-00289,Yaa,Frimpong,yaa.frimpong41@example.com,Kumasi,GH,14.08.2023
+GH-CUST-00290,Gifty,Adjei,gifty.adjei84@example.com,Kumasi,GH,05/21/2025 00:00
+GH-CUST-00291,Kwabena,Osei,kwabena.osei372@example.com,Tamale,GH,18-Aug-2023
+GH-CUST-00292,Efua,Osei,efua.osei960@example.com,Bolgatanga,GH,05-Nov-2024
+GH-CUST-00293,Yaw,Ofori,yaw.ofori150@example.com,Koforidua,GH,2023-08-11 00:00:00
+GH-CUST-00294,Emmanuel,Mensah,emmanuel.mensah833@example.com,Tamale,GH,31.10.2024
+GH-CUST-00295,Akosua,Baffour,akosua.baffour335@example.com,Tema,GH,03/15/2023 00:00
+GH-CUST-00296,Efua,Appiah,efua.appiah865@example.com,Kumasi,GH,11/27/2025 00:00
+GH-CUST-00297,Abena,Amoah,abena.amoah52@example.com,Ho,GH,09-Nov-2024
+GH-CUST-00298,Adjoa,Nkrumah,adjoa.nkrumah902@example.com,Accra,GH,16.12.2023
+GH-CUST-00299,Kojo,Amoah,kojo.amoah429@example.com,Tamale,GH,03/16/2024 00:00
+GH-CUST-00300,Adjoa,Appiah,adjoa.appiah119@example.com,Takoradi,GH,06.08.2025
+GH-CUST-00301,Akosua,Adu,akosua.adu966@example.com,Koforidua,GH,09/13/2023 00:00
+GH-CUST-00302,Kojo,Mensah,kojo.mensah18@example.com,Tamale,GH,2025-03-31 00:00:00
+GH-CUST-00303,Kwaku,Osei,kwaku.osei241@example.com,Accra,GH,05-Aug-2023
+GH-CUST-00304,Nana,Ofori,nana.ofori287@example.com,Koforidua,GH,09/21/2024 00:00
+GH-CUST-00305,Kwabena,Frimpong,kwabena.frimpong12@example.com,Ho,GH,10/18/2025 00:00
+GH-CUST-00306,Gifty,Asante,gifty.asante944@example.com,Accra,GH,04-Sep-2024
+GH-CUST-00307,Ama,Asante,ama.asante937@example.com,Bolgatanga,GH,02-Mar-2025
+GH-CUST-00308,Esi,Adu,esi.adu179@example.com,Sunyani,GH,2025-02-13 00:00:00
+GH-CUST-00309,Kwabena,Ofori,kwabena.ofori865@example.com,Cape Coast,GH,2023-05-24 00:00:00
+GH-CUST-00310,Efua,Frimpong,efua.frimpong425@example.com,Kumasi,GH,01.09.2024
+GH-CUST-00311,Efua,Nkrumah,efua.nkrumah870@example.com,Ho,GH,26.06.2024
+GH-CUST-00312,Yaa,Sarpong,yaa.sarpong473@example.com,Koforidua,GH,08/30/2023 00:00
+GH-CUST-00313,Nana,Boateng,nana.boateng203@example.com,Tema,GH,06/05/2024 00:00
+GH-CUST-00314,Nana,Agyeman,nana.agyeman534@example.com,Tamale,GH,08/08/2025 00:00
+GH-CUST-00315,Kojo,Appiah,kojo.appiah786@example.com,Koforidua,GH,12-Feb-2025
+GH-CUST-00316,Abena,Amoah,abena.amoah647@example.com,Ho,GH,08/15/2024 00:00
+GH-CUST-00317,Emmanuel,Adjei,emmanuel.adjei789@example.com,Bolgatanga,GH,16-Aug-2024
+GH-CUST-00318,Akosua,Nkrumah,akosua.nkrumah664@example.com,Cape Coast,GH,05/01/2023 00:00
+GH-CUST-00319,Kwame,Mensah,kwame.mensah659@example.com,Tamale,GH,25.07.2023
+GH-CUST-00320,Ama,Baffour,ama.baffour335@example.com,Sunyani,GH,24.08.2024
+GH-CUST-00321,Kwaku,Appiah,kwaku.appiah140@example.com,Takoradi,GH,24.05.2024
+GH-CUST-00322,Abena,Darko,abena.darko358@example.com,Takoradi,GH,04-Mar-2025
+GH-CUST-00323,Grace,Appiah,grace.appiah793@example.com,Tamale,GH,08-Dec-2025
+GH-CUST-00324,Adjoa,Frimpong,adjoa.frimpong311@example.com,Tema,GH,2023-11-01 00:00:00
+GH-CUST-00325,Ama,Mensah,ama.mensah207@example.com,Kumasi,GH,21-Apr-2024
+GH-CUST-00326,Esi,Owusu,esi.owusu80@example.com,Bolgatanga,GH,18-Jan-2025
+GH-CUST-00327,Emmanuel,Mensah,emmanuel.mensah937@example.com,Kumasi,GH,2024-09-28 00:00:00
+GH-CUST-00328,Yaw,Owusu,yaw.owusu767@example.com,Tema,GH,2025-12-18 00:00:00
+GH-CUST-00329,Esi,Osei,esi.osei71@example.com,Takoradi,GH,12/25/2024 00:00
+GH-CUST-00330,Gifty,Amoah,gifty.amoah562@example.com,Tamale,GH,2023-05-31 00:00:00
+GH-CUST-00331,Adjoa,Adu,adjoa.adu346@example.com,Sunyani,GH,2023-03-21 00:00:00
+GH-CUST-00332,Esi,Agyeman,esi.agyeman460@example.com,Bolgatanga,GH,2025-01-16 00:00:00
+GH-CUST-00333,Adjoa,Adu,adjoa.adu772@example.com,Bolgatanga,GH,2023-10-08 00:00:00
+GH-CUST-00334,Adjoa,Owusu,adjoa.owusu672@example.com,Accra,GH,2023-07-09 00:00:00
+GH-CUST-00335,Kwame,Amoah,kwame.amoah227@example.com,Cape Coast,GH,2023-01-31 00:00:00
+GH-CUST-00336,Kojo,Adu,kojo.adu231@example.com,Koforidua,GH,2023-10-11 00:00:00
+GH-CUST-00337,Esi,Nkrumah,esi.nkrumah580@example.com,Sunyani,GH,08/15/2024 00:00
+GH-CUST-00338,Nana,Ofori,nana.ofori567@example.com,Takoradi,GH,01/18/2023 00:00
+GH-CUST-00339,Esi,Agyeman,esi.agyeman893@example.com,Tamale,GH,17-Mar-2025
+GH-CUST-00340,Yaa,Darko,yaa.darko90@example.com,Kumasi,GH,09/25/2024 00:00
+GH-CUST-00341,Kofi,Asante,kofi.asante348@example.com,Koforidua,GH,13-Apr-2024
+GH-CUST-00342,Kofi,Amoah,kofi.amoah273@example.com,Kumasi,GH,16-Jan-2024
+GH-CUST-00343,Akosua,Osei,akosua.osei227@example.com,Bolgatanga,GH,04-Mar-2023
+GH-CUST-00344,Efua,Baffour,efua.baffour289@example.com,Kumasi,GH,02/12/2024 00:00
+GH-CUST-00345,Grace,Owusu,grace.owusu510@example.com,Sunyani,GH,09/07/2024 00:00
+GH-CUST-00346,Comfort,Nkrumah,comfort.nkrumah894@example.com,Cape Coast,GH,15.04.2023
+GH-CUST-00347,Comfort,Adjei,comfort.adjei266@example.com,Koforidua,GH,19.05.2024
+GH-CUST-00348,Emmanuel,Nkrumah,emmanuel.nkrumah816@example.com,Tamale,GH,06-Nov-2025
+GH-CUST-00349,Kwabena,Adjei,kwabena.adjei837@example.com,Tema,GH,07/27/2025 00:00
+GH-CUST-00350,Kwabena,Adjei,kwabena.adjei354@example.com,Tema,GH,2024-08-27 00:00:00
+GH-CUST-00351,Efua,Osei,efua.osei22@example.com,Kumasi,GH,2023-01-20 00:00:00
+GH-CUST-00352,Akosua,Baffour,akosua.baffour113@example.com,Kumasi,GH,27-Aug-2025
+GH-CUST-00353,Grace,Nkrumah,grace.nkrumah381@example.com,Cape Coast,GH,2024-03-03 00:00:00
+GH-CUST-00354,Adjoa,Adu,adjoa.adu560@example.com,Bolgatanga,GH,17-Feb-2025
+GH-CUST-00355,Kojo,Ofori,kojo.ofori181@example.com,Bolgatanga,GH,03/16/2024 00:00
+GH-CUST-00356,Prince,Nkrumah,prince.nkrumah949@example.com,Takoradi,GH,2023-01-18 00:00:00
+GH-CUST-00357,Kojo,Sarpong,kojo.sarpong965@example.com,Tema,GH,05.02.2024
+GH-CUST-00358,Kwabena,Sarpong,kwabena.sarpong710@example.com,Sunyani,GH,27-Feb-2024
+GH-CUST-00359,Emmanuel,Agyeman,emmanuel.agyeman180@example.com,Kumasi,GH,01/04/2025 00:00
+GH-CUST-00360,Akosua,Sarpong,akosua.sarpong737@example.com,Ho,GH,2025-09-29 00:00:00
+GH-CUST-00361,Yaw,Darko,yaw.darko756@example.com,Kumasi,GH,2023-08-28 00:00:00
+GH-CUST-00362,Nana,Sarpong,nana.sarpong503@example.com,Kumasi,GH,05/01/2024 00:00
+GH-CUST-00363,Adjoa,Agyeman,adjoa.agyeman146@example.com,Sunyani,GH,08/25/2024 00:00
+GH-CUST-00364,Yaw,Nkrumah,yaw.nkrumah348@example.com,Kumasi,GH,28.05.2025
+GH-CUST-00365,Akosua,Darko,akosua.darko508@example.com,Ho,GH,2025-09-01 00:00:00
+GH-CUST-00366,Nana,Owusu,nana.owusu332@example.com,Takoradi,GH,17.03.2024
+GH-CUST-00367,Grace,Owusu,grace.owusu936@example.com,Accra,GH,17.12.2024
+GH-CUST-00368,Comfort,Appiah,comfort.appiah444@example.com,Tema,GH,22-Nov-2023
+GH-CUST-00369,Kwaku,Ofori,kwaku.ofori204@example.com,Cape Coast,GH,2024-02-18 00:00:00
+GH-CUST-00370,Yaa,Owusu,yaa.owusu1@example.com,Tamale,GH,17-Oct-2023
+GH-CUST-00371,Comfort,Frimpong,comfort.frimpong301@example.com,Ho,GH,10-Nov-2023
+GH-CUST-00372,Emmanuel,Nkrumah,emmanuel.nkrumah323@example.com,Kumasi,GH,31-Mar-2024
+GH-CUST-00373,Nana,Osei,nana.osei710@example.com,Accra,GH,19.06.2025
+GH-CUST-00374,Kwesi,Baffour,kwesi.baffour631@example.com,Sunyani,GH,08/01/2023 00:00
+GH-CUST-00375,Comfort,Nkrumah,comfort.nkrumah531@example.com,Sunyani,GH,06.11.2024
+GH-CUST-00376,Akosua,Owusu,akosua.owusu293@example.com,Sunyani,GH,04/29/2024 00:00
+GH-CUST-00377,Yaw,Owusu,yaw.owusu328@example.com,Kumasi,GH,20.02.2025
+GH-CUST-00378,Akosua,Mensah,akosua.mensah397@example.com,Tamale,GH,2023-09-14 00:00:00
+GH-CUST-00379,Grace,Asante,grace.asante734@example.com,Sunyani,GH,01/21/2023 00:00
+GH-CUST-00380,Yaa,Darko,yaa.darko237@example.com,Tamale,GH,2025-01-26 00:00:00
+GH-CUST-00381,Comfort,Nkrumah,comfort.nkrumah149@example.com,Tamale,GH,02-Jul-2023
+GH-CUST-00382,Adjoa,Baffour,adjoa.baffour205@example.com,Kumasi,GH,07-May-2023
+GH-CUST-00383,Ama,Adu,ama.adu664@example.com,Kumasi,GH,18.08.2024
+GH-CUST-00384,Abena,Amoah,abena.amoah946@example.com,Cape Coast,GH,2024-02-12 00:00:00
+GH-CUST-00385,Kwame,Adu,kwame.adu802@example.com,Cape Coast,GH,21-Nov-2024
+GH-CUST-00386,Emmanuel,Frimpong,emmanuel.frimpong125@example.com,Cape Coast,GH,24-Aug-2024
+GH-CUST-00387,Adjoa,Boateng,adjoa.boateng216@example.com,Ho,GH,18-Jul-2023
+GH-CUST-00388,Ama,Agyeman,ama.agyeman907@example.com,Tamale,GH,01/21/2025 00:00
+GH-CUST-00389,Ama,Ofori,ama.ofori41@example.com,Takoradi,GH,11-Nov-2024
+GH-CUST-00390,Adjoa,Adu,adjoa.adu834@example.com,Ho,GH,16-Feb-2025
+GH-CUST-00391,Kwesi,Adu,kwesi.adu192@example.com,Accra,GH,2024-11-20 00:00:00
+GH-CUST-00392,Nana,Baffour,nana.baffour437@example.com,Sunyani,GH,02-Apr-2023
+GH-CUST-00393,Prince,Sarpong,prince.sarpong528@example.com,Accra,GH,01/09/2025 00:00
+GH-CUST-00394,Yaa,Owusu,yaa.owusu431@example.com,Accra,GH,16-Nov-2025
+GH-CUST-00395,Adjoa,Sarpong,adjoa.sarpong140@example.com,Takoradi,GH,28.02.2025
+GH-CUST-00396,Emmanuel,Amoah,emmanuel.amoah665@example.com,Kumasi,GH,2024-06-15 00:00:00
+GH-CUST-00397,Kwabena,Amoah,kwabena.amoah691@example.com,Accra,GH,06/16/2024 00:00
+GH-CUST-00398,Prince,Ofori,prince.ofori291@example.com,Ho,GH,11/20/2025 00:00
+GH-CUST-00399,Abena,Baffour,abena.baffour8@example.com,Accra,GH,2023-01-11 00:00:00
+GH-CUST-00400,Comfort,Osei,comfort.osei924@example.com,Accra,GH,17-Nov-2025
+GH-CUST-00401,Yaw,Baffour,yaw.baffour544@example.com,Takoradi,GH,09/07/2023 00:00
+GH-CUST-00402,Prince,Osei,prince.osei84@example.com,Koforidua,GH,07/14/2023 00:00
+GH-CUST-00403,Comfort,Boateng,comfort.boateng548@example.com,Bolgatanga,GH,09/05/2025 00:00
+GH-CUST-00404,Yaw,Ofori,yaw.ofori3@example.com,Tema,GH,2023-07-19 00:00:00
+GH-CUST-00405,Nana,Sarpong,nana.sarpong432@example.com,Koforidua,GH,2023-01-17 00:00:00
+GH-CUST-00406,Grace,Asante,grace.asante442@example.com,Ho,GH,19.06.2025
+GH-CUST-00407,Kojo,Osei,kojo.osei135@example.com,Sunyani,GH,2024-09-19 00:00:00
+GH-CUST-00408,Abena,Osei,abena.osei630@example.com,Ho,GH,04/05/2024 00:00
+GH-CUST-00409,Grace,Boateng,grace.boateng894@example.com,Sunyani,GH,12.06.2025
+GH-CUST-00410,Kofi,Frimpong,kofi.frimpong206@example.com,Koforidua,GH,06/09/2023 00:00
+GH-CUST-00411,Kofi,Adu,kofi.adu584@example.com,Cape Coast,GH,2024-05-18 00:00:00
+GH-CUST-00412,Ama,Nkrumah,ama.nkrumah731@example.com,Tamale,GH,28-Sep-2025
+GH-CUST-00413,Kwabena,Sarpong,kwabena.sarpong632@example.com,Tema,GH,20-May-2024
+GH-CUST-00414,Yaa,Sarpong,yaa.sarpong96@example.com,Kumasi,GH,11/28/2025 00:00
+GH-CUST-00415,Abena,Ofori,abena.ofori642@example.com,Sunyani,GH,2024-11-22 00:00:00
+GH-CUST-00416,Esi,Agyeman,esi.agyeman113@example.com,Bolgatanga,GH,07/22/2025 00:00
+GH-CUST-00417,Emmanuel,Boateng,emmanuel.boateng258@example.com,Tema,GH,12/31/2025 00:00
+GH-CUST-00418,Yaa,Appiah,yaa.appiah96@example.com,Ho,GH,04.02.2024
+GH-CUST-00419,Yaw,Darko,yaw.darko25@example.com,Tema,GH,01/20/2024 00:00
+GH-CUST-00420,Akosua,Baffour,akosua.baffour731@example.com,Accra,GH,27.08.2025
+GH-CUST-00421,Prince,Ofori,prince.ofori452@example.com,Ho,GH,29-Oct-2024
+GH-CUST-00422,Akosua,Adjei,akosua.adjei717@example.com,Sunyani,GH,07.10.2024
+GH-CUST-00423,Efua,Osei,efua.osei528@example.com,Kumasi,GH,09/27/2025 00:00
+GH-CUST-00424,Gifty,Appiah,gifty.appiah777@example.com,Kumasi,GH,18.09.2023
+GH-CUST-00425,Abena,Frimpong,abena.frimpong287@example.com,Koforidua,GH,23.03.2023
+GH-CUST-00426,Kwesi,Agyeman,kwesi.agyeman349@example.com,Kumasi,GH,05/16/2023 00:00
+GH-CUST-00427,Akosua,Baffour,akosua.baffour56@example.com,Tema,GH,01.05.2025
+GH-CUST-00428,Yaa,Ofori,yaa.ofori559@example.com,Takoradi,GH,01.10.2025
+GH-CUST-00429,Akosua,Frimpong,akosua.frimpong81@example.com,Koforidua,GH,12.04.2024
+GH-CUST-00430,Kofi,Appiah,kofi.appiah763@example.com,Tema,GH,05/03/2024 00:00
+GH-CUST-00431,Efua,Owusu,efua.owusu435@example.com,Accra,GH,24-Jan-2025
+GH-CUST-00432,Kojo,Adu,kojo.adu860@example.com,Sunyani,GH,22.02.2025
+GH-CUST-00433,Yaa,Appiah,yaa.appiah898@example.com,Accra,GH,12-May-2025
+GH-CUST-00434,Kwesi,Darko,kwesi.darko239@example.com,Bolgatanga,GH,14-Mar-2024
+GH-CUST-00435,Nana,Frimpong,nana.frimpong263@example.com,Koforidua,GH,2024-09-29 00:00:00
+GH-CUST-00436,Kwesi,Amoah,kwesi.amoah600@example.com,Takoradi,GH,2025-08-18 00:00:00
+GH-CUST-00437,Yaw,Appiah,yaw.appiah924@example.com,Accra,GH,01/26/2023 00:00
+GH-CUST-00438,Efua,Asante,efua.asante754@example.com,Bolgatanga,GH,17.05.2024
+GH-CUST-00439,Grace,Appiah,grace.appiah754@example.com,Koforidua,GH,21-Aug-2023
+GH-CUST-00440,Kwaku,Osei,kwaku.osei217@example.com,Accra,GH,2023-06-13 00:00:00
+GH-CUST-00441,Yaa,Baffour,yaa.baffour289@example.com,Sunyani,GH,11.06.2025
+GH-CUST-00442,Yaw,Amoah,yaw.amoah521@example.com,Koforidua,GH,06-Nov-2025
+GH-CUST-00443,Gifty,Adu,gifty.adu563@example.com,Ho,GH,14.11.2025
+GH-CUST-00444,Adjoa,Frimpong,adjoa.frimpong751@example.com,Bolgatanga,GH,29-Dec-2024
+GH-CUST-00445,Prince,Frimpong,prince.frimpong102@example.com,Kumasi,GH,2024-08-21 00:00:00
+GH-CUST-00446,Nana,Adjei,nana.adjei69@example.com,Sunyani,GH,21-Apr-2023
+GH-CUST-00447,Prince,Appiah,prince.appiah654@example.com,Takoradi,GH,2024-12-26 00:00:00
+GH-CUST-00448,Kwame,Agyeman,kwame.agyeman781@example.com,Tamale,GH,07-Oct-2025
+GH-CUST-00449,Esi,Ofori,esi.ofori995@example.com,Ho,GH,11.12.2025
+GH-CUST-00450,Kojo,Mensah,kojo.mensah235@example.com,Accra,GH,19-Jan-2024
+GH-CUST-00451,Abena,Asante,abena.asante51@example.com,Takoradi,GH,10/10/2024 00:00
+GH-CUST-00452,Efua,Boateng,efua.boateng280@example.com,Kumasi,GH,2023-12-11 00:00:00
+GH-CUST-00453,Nana,Ofori,nana.ofori865@example.com,Tema,GH,07/14/2023 00:00
+GH-CUST-00454,Kwaku,Nkrumah,kwaku.nkrumah860@example.com,Tamale,GH,01.08.2024
+GH-CUST-00455,Emmanuel,Ofori,emmanuel.ofori255@example.com,Accra,GH,2025-05-05 00:00:00
+GH-CUST-00456,Kwame,Amoah,kwame.amoah169@example.com,Bolgatanga,GH,2025-09-05 00:00:00
+GH-CUST-00457,Akosua,Nkrumah,akosua.nkrumah535@example.com,Takoradi,GH,18-May-2025
+GH-CUST-00458,Esi,Owusu,esi.owusu712@example.com,Tamale,GH,07-Jul-2025
+GH-CUST-00459,Emmanuel,Baffour,emmanuel.baffour117@example.com,Tamale,GH,06.02.2024
+GH-CUST-00460,Akosua,Nkrumah,akosua.nkrumah769@example.com,Sunyani,GH,20.05.2023
+GH-CUST-00461,Ama,Boateng,ama.boateng759@example.com,Tema,GH,02/09/2024 00:00
+GH-CUST-00462,Akosua,Sarpong,akosua.sarpong953@example.com,Takoradi,GH,05/16/2023 00:00
+GH-CUST-00463,Kwesi,Asante,kwesi.asante785@example.com,Ho,GH,2024-11-10 00:00:00
+GH-CUST-00464,Akosua,Asante,akosua.asante889@example.com,Accra,GH,26.12.2023
+GH-CUST-00465,Yaw,Adu,yaw.adu221@example.com,Accra,GH,08.04.2025
+GH-CUST-00466,Kwabena,Darko,kwabena.darko741@example.com,Koforidua,GH,05/23/2024 00:00
+GH-CUST-00467,Kofi,Agyeman,kofi.agyeman837@example.com,Cape Coast,GH,02.11.2023
+GH-CUST-00468,Kofi,Adjei,kofi.adjei127@example.com,Koforidua,GH,15-Nov-2025
+GH-CUST-00469,Esi,Appiah,esi.appiah778@example.com,Kumasi,GH,10-Sep-2025
+GH-CUST-00470,Gifty,Adjei,gifty.adjei985@example.com,Tamale,GH,2023-12-30 00:00:00
+GH-CUST-00471,Kwesi,Boateng,kwesi.boateng140@example.com,Koforidua,GH,12.10.2025
+GH-CUST-00472,Comfort,Osei,comfort.osei726@example.com,Kumasi,GH,2024-11-28 00:00:00
+GH-CUST-00473,Emmanuel,Nkrumah,emmanuel.nkrumah750@example.com,Accra,GH,01-Oct-2025
+GH-CUST-00474,Ama,Owusu,ama.owusu148@example.com,Takoradi,GH,2024-07-14 00:00:00
+GH-CUST-00475,Efua,Baffour,efua.baffour638@example.com,Kumasi,GH,09.05.2025
+GH-CUST-00476,Kofi,Baffour,kofi.baffour176@example.com,Sunyani,GH,2025-09-12 00:00:00
+GH-CUST-00477,Efua,Sarpong,efua.sarpong53@example.com,Koforidua,GH,18.05.2025
+GH-CUST-00478,Comfort,Ofori,comfort.ofori447@example.com,Ho,GH,11/30/2023 00:00
+GH-CUST-00479,Nana,Sarpong,nana.sarpong474@example.com,Koforidua,GH,17-Jul-2023
+GH-CUST-00480,Yaw,Appiah,yaw.appiah590@example.com,Kumasi,GH,2024-02-04 00:00:00
+GH-CUST-00481,Emmanuel,Baffour,emmanuel.baffour2@example.com,Koforidua,GH,2025-09-29 00:00:00
+GH-CUST-00482,Kwame,Osei,kwame.osei663@example.com,Tamale,GH,17-Jun-2025
+GH-CUST-00483,Kwabena,Amoah,kwabena.amoah345@example.com,Cape Coast,GH,10-Jan-2024
+GH-CUST-00484,Grace,Adjei,grace.adjei1@example.com,Takoradi,GH,01/22/2023 00:00
+GH-CUST-00485,Gifty,Frimpong,gifty.frimpong653@example.com,Ho,GH,23-Mar-2023
+GH-CUST-00486,Akosua,Ofori,akosua.ofori854@example.com,Tema,GH,2024-09-21 00:00:00
+GH-CUST-00487,Comfort,Ofori,comfort.ofori662@example.com,Ho,GH,14-Sep-2024
+GH-CUST-00488,Efua,Agyeman,efua.agyeman8@example.com,Tamale,GH,03/05/2024 00:00
+GH-CUST-00489,Kwabena,Baffour,kwabena.baffour880@example.com,Ho,GH,04-Apr-2025
+GH-CUST-00490,Kwame,Agyeman,kwame.agyeman376@example.com,Koforidua,GH,01-Feb-2025
+GH-CUST-00491,Comfort,Sarpong,comfort.sarpong336@example.com,Cape Coast,GH,18-Sep-2025
+GH-CUST-00492,Abena,Agyeman,abena.agyeman594@example.com,Accra,GH,21.10.2023
+GH-CUST-00493,Yaa,Adjei,yaa.adjei19@example.com,Takoradi,GH,2025-10-31 00:00:00
+GH-CUST-00494,Ama,Osei,ama.osei178@example.com,Tamale,GH,09-Dec-2024
+GH-CUST-00495,Adjoa,Mensah,adjoa.mensah78@example.com,Cape Coast,GH,10/10/2023 00:00
+GH-CUST-00496,Yaa,Baffour,yaa.baffour771@example.com,Cape Coast,GH,03.05.2024
+GH-CUST-00497,Kwame,Amoah,kwame.amoah379@example.com,Tema,GH,06/27/2025 00:00
+GH-CUST-00498,Yaw,Adjei,yaw.adjei155@example.com,Bolgatanga,GH,18-May-2025
+GH-CUST-00499,Kwabena,Osei,kwabena.osei504@example.com,Cape Coast,GH,16-Jun-2025
+GH-CUST-00500,Kwame,Agyeman,kwame.agyeman156@example.com,Ho,GH,2025-10-25 00:00:00
+GH-CUST-00501,Emmanuel,Owusu,emmanuel.owusu51@example.com,Accra,GH,23.10.2023
+GH-CUST-00502,Abena,Ofori,abena.ofori116@example.com,Cape Coast,GH,07/30/2025 00:00
+GH-CUST-00503,Gifty,Baffour,gifty.baffour490@example.com,Bolgatanga,GH,05/15/2024 00:00
+GH-CUST-00504,Gifty,Agyeman,gifty.agyeman518@example.com,Takoradi,GH,02/05/2024 00:00
+GH-CUST-00505,Grace,Adu,grace.adu568@example.com,Sunyani,GH,11/15/2025 00:00
+GH-CUST-00506,Comfort,Baffour,comfort.baffour595@example.com,Ho,GH,12/20/2025 00:00
+GH-CUST-00507,Adjoa,Boateng,adjoa.boateng216@example.com,Koforidua,GH,2025-06-07 00:00:00
+GH-CUST-00508,Esi,Sarpong,esi.sarpong761@example.com,Tamale,GH,10/18/2023 00:00
+GH-CUST-00509,Abena,Asante,abena.asante828@example.com,Koforidua,GH,27-Apr-2024
+GH-CUST-00510,Comfort,Frimpong,comfort.frimpong751@example.com,Takoradi,GH,01/07/2025 00:00
+GH-CUST-00511,Yaw,Mensah,yaw.mensah965@example.com,Sunyani,GH,23.11.2025
+GH-CUST-00512,Gifty,Baffour,gifty.baffour683@example.com,Accra,GH,02/08/2024 00:00
+GH-CUST-00513,Akosua,Appiah,akosua.appiah931@example.com,Bolgatanga,GH,2024-12-19 00:00:00
+GH-CUST-00514,Comfort,Baffour,comfort.baffour158@example.com,Koforidua,GH,12-Nov-2023
+GH-CUST-00515,Yaa,Appiah,yaa.appiah91@example.com,Ho,GH,26-Apr-2023
+GH-CUST-00516,Esi,Adu,esi.adu759@example.com,Koforidua,GH,28-Jun-2025
+GH-CUST-00517,Nana,Darko,nana.darko494@example.com,Bolgatanga,GH,2023-06-04 00:00:00
+GH-CUST-00518,Gifty,Asante,gifty.asante668@example.com,Tema,GH,15.06.2025
+GH-CUST-00519,Yaa,Darko,yaa.darko34@example.com,Takoradi,GH,01/10/2025 00:00
+GH-CUST-00520,Emmanuel,Amoah,emmanuel.amoah685@example.com,Accra,GH,05/19/2025 00:00
+GH-CUST-00521,Efua,Osei,efua.osei121@example.com,Sunyani,GH,04/24/2023 00:00
+GH-CUST-00522,Ama,Osei,ama.osei570@example.com,Cape Coast,GH,25-Aug-2025
+GH-CUST-00523,Kwaku,Baffour,kwaku.baffour112@example.com,Tema,GH,17.12.2025
+GH-CUST-00524,Gifty,Boateng,gifty.boateng550@example.com,Bolgatanga,GH,17-Apr-2025
+GH-CUST-00525,Kofi,Agyeman,kofi.agyeman595@example.com,Tamale,GH,2024-09-08 00:00:00
+GH-CUST-00526,Esi,Darko,esi.darko996@example.com,Tema,GH,08/25/2025 00:00
+GH-CUST-00527,Efua,Adu,efua.adu869@example.com,Sunyani,GH,22.02.2024
+GH-CUST-00528,Emmanuel,Osei,emmanuel.osei677@example.com,Sunyani,GH,07.12.2025
+GH-CUST-00529,Kwesi,Mensah,kwesi.mensah144@example.com,Koforidua,GH,09/04/2024 00:00
+GH-CUST-00530,Grace,Sarpong,grace.sarpong794@example.com,Ho,GH,2023-01-17 00:00:00
+GH-CUST-00531,Prince,Ofori,prince.ofori921@example.com,Sunyani,GH,26.11.2023
+GH-CUST-00532,Abena,Mensah,abena.mensah67@example.com,Tema,GH,2024-07-01 00:00:00
+GH-CUST-00533,Akosua,Adu,akosua.adu354@example.com,Takoradi,GH,25.09.2025
+GH-CUST-00534,Efua,Darko,efua.darko975@example.com,Cape Coast,GH,10/20/2024 00:00
+GH-CUST-00535,Esi,Adjei,esi.adjei579@example.com,Bolgatanga,GH,2025-03-13 00:00:00
+GH-CUST-00536,Kwesi,Frimpong,kwesi.frimpong739@example.com,Koforidua,GH,29-Jun-2025
+GH-CUST-00537,Kojo,Osei,kojo.osei145@example.com,Tamale,GH,29.05.2025
+GH-CUST-00538,Esi,Owusu,esi.owusu957@example.com,Tema,GH,05/10/2024 00:00
+GH-CUST-00539,Kwesi,Mensah,kwesi.mensah509@example.com,Tamale,GH,01/23/2023 00:00
+GH-CUST-00540,Nana,Sarpong,nana.sarpong877@example.com,Accra,GH,02-Sep-2025
+GH-CUST-00541,Gifty,Frimpong,gifty.frimpong711@example.com,Sunyani,GH,2024-05-13 00:00:00
+GH-CUST-00542,Abena,Boateng,abena.boateng367@example.com,Cape Coast,GH,07-May-2024
+GH-CUST-00543,Gifty,Mensah,gifty.mensah953@example.com,Kumasi,GH,2025-06-09 00:00:00
+GH-CUST-00544,Kojo,Asante,kojo.asante351@example.com,Koforidua,GH,2023-01-14 00:00:00
+GH-CUST-00545,Kwame,Baffour,kwame.baffour880@example.com,Bolgatanga,GH,15.06.2023
+GH-CUST-00546,Adjoa,Sarpong,adjoa.sarpong225@example.com,Bolgatanga,GH,11/18/2023 00:00
+GH-CUST-00547,Efua,Amoah,efua.amoah365@example.com,Tema,GH,12.06.2025
+GH-CUST-00548,Kwabena,Agyeman,kwabena.agyeman131@example.com,Tamale,GH,16.07.2023
+GH-CUST-00549,Comfort,Adjei,comfort.adjei786@example.com,Cape Coast,GH,06/21/2023 00:00
+GH-CUST-00550,Gifty,Sarpong,gifty.sarpong932@example.com,Kumasi,GH,04-Jul-2025
+GH-CUST-00551,Prince,Agyeman,prince.agyeman961@example.com,Takoradi,GH,04/17/2023 00:00
+GH-CUST-00552,Comfort,Owusu,comfort.owusu445@example.com,Tema,GH,2024-10-31 00:00:00
+GH-CUST-00553,Emmanuel,Mensah,emmanuel.mensah756@example.com,Tema,GH,10.06.2025
+GH-CUST-00554,Kofi,Mensah,kofi.mensah842@example.com,Sunyani,GH,03-Mar-2024
+GH-CUST-00555,Yaw,Owusu,yaw.owusu532@example.com,Tamale,GH,19.09.2025
+GH-CUST-00556,Kwesi,Boateng,kwesi.boateng465@example.com,Kumasi,GH,2024-01-26 00:00:00
+GH-CUST-00557,Esi,Darko,esi.darko149@example.com,Ho,GH,22.05.2023
+GH-CUST-00558,Abena,Osei,abena.osei452@example.com,Ho,GH,29-Nov-2025
+GH-CUST-00559,Kojo,Darko,kojo.darko800@example.com,Accra,GH,19.01.2024
+GH-CUST-00560,Kwesi,Sarpong,kwesi.sarpong77@example.com,Tamale,GH,26.10.2025
+GH-CUST-00561,Kwesi,Nkrumah,kwesi.nkrumah886@example.com,Sunyani,GH,04/17/2023 00:00
+GH-CUST-00562,Yaw,Boateng,yaw.boateng669@example.com,Tamale,GH,2025-04-16 00:00:00
+GH-CUST-00563,Efua,Sarpong,efua.sarpong581@example.com,Ho,GH,12.05.2025
+GH-CUST-00564,Efua,Owusu,efua.owusu997@example.com,Ho,GH,10.07.2024
+GH-CUST-00565,Kwame,Darko,kwame.darko967@example.com,Ho,GH,26.05.2025
+GH-CUST-00566,Akosua,Adu,akosua.adu638@example.com,Kumasi,GH,18-Jan-2024
+GH-CUST-00567,Kwesi,Sarpong,kwesi.sarpong523@example.com,Cape Coast,GH,25.07.2025
+GH-CUST-00568,Grace,Frimpong,grace.frimpong345@example.com,Accra,GH,28-Mar-2025
+GH-CUST-00569,Kojo,Darko,kojo.darko879@example.com,Accra,GH,07.04.2023
+GH-CUST-00570,Esi,Mensah,esi.mensah665@example.com,Bolgatanga,GH,24.09.2024
+GH-CUST-00571,Esi,Boateng,esi.boateng11@example.com,Tema,GH,07/19/2023 00:00
+GH-CUST-00572,Ama,Nkrumah,ama.nkrumah428@example.com,Accra,GH,19.03.2025
+GH-CUST-00573,Esi,Ofori,esi.ofori867@example.com,Accra,GH,2025-01-07 00:00:00
+GH-CUST-00574,Adjoa,Mensah,adjoa.mensah874@example.com,Ho,GH,08.01.2025
+GH-CUST-00575,Nana,Ofori,nana.ofori497@example.com,Tema,GH,11-Mar-2024
+GH-CUST-00576,Prince,Darko,prince.darko99@example.com,Bolgatanga,GH,23-Sep-2024
+GH-CUST-00577,Efua,Darko,efua.darko156@example.com,Koforidua,GH,03/27/2023 00:00
+GH-CUST-00578,Abena,Osei,abena.osei711@example.com,Kumasi,GH,2025-03-04 00:00:00
+GH-CUST-00579,Prince,Boateng,prince.boateng142@example.com,Accra,GH,22-Jul-2025
+GH-CUST-00580,Efua,Frimpong,efua.frimpong932@example.com,Kumasi,GH,09/23/2024 00:00
+GH-CUST-00581,Efua,Darko,efua.darko83@example.com,Tamale,GH,2023-07-26 00:00:00
+GH-CUST-00582,Prince,Asante,prince.asante448@example.com,Tamale,GH,05/03/2025 00:00
+GH-CUST-00583,Ama,Frimpong,ama.frimpong197@example.com,Koforidua,GH,08/12/2023 00:00
+GH-CUST-00584,Ama,Mensah,ama.mensah928@example.com,Bolgatanga,GH,2024-05-13 00:00:00
+GH-CUST-00585,Efua,Sarpong,efua.sarpong256@example.com,Tamale,GH,2025-10-02 00:00:00
+GH-CUST-00586,Kwaku,Adjei,kwaku.adjei223@example.com,Sunyani,GH,02/06/2024 00:00
+GH-CUST-00587,Grace,Adu,grace.adu649@example.com,Cape Coast,GH,11.11.2023
+GH-CUST-00588,Yaa,Nkrumah,yaa.nkrumah988@example.com,Sunyani,GH,15-Mar-2025
+GH-CUST-00589,Comfort,Asante,comfort.asante943@example.com,Tema,GH,2023-03-25 00:00:00
+GH-CUST-00590,Kwesi,Sarpong,kwesi.sarpong590@example.com,Ho,GH,12/17/2024 00:00
+GH-CUST-00591,Comfort,Boateng,comfort.boateng481@example.com,Tema,GH,2025-02-01 00:00:00
+GH-CUST-00592,Kofi,Nkrumah,kofi.nkrumah227@example.com,Cape Coast,GH,13-Nov-2024
+GH-CUST-00593,Comfort,Boateng,comfort.boateng651@example.com,Ho,GH,12-Apr-2023
+GH-CUST-00594,Nana,Amoah,nana.amoah949@example.com,Bolgatanga,GH,07.08.2023
+GH-CUST-00595,Grace,Boateng,grace.boateng686@example.com,Tema,GH,22.08.2023
+GH-CUST-00596,Efua,Ofori,efua.ofori95@example.com,Sunyani,GH,29.11.2024
+GH-CUST-00597,Yaw,Adu,yaw.adu37@example.com,Kumasi,GH,08-Jan-2023
+GH-CUST-00598,Adjoa,Ofori,adjoa.ofori933@example.com,Tamale,GH,21-Mar-2025
+GH-CUST-00599,Yaa,Sarpong,yaa.sarpong878@example.com,Cape Coast,GH,04.10.2024
+GH-CUST-00110-DUP,Akosua,Baffour,AKOSUA.BAFFOUR860@EXAMPLE.COM,Sunyani,GH,14-Jan-2023
+GH-CUST-00419-DUP,Yaw,Darko,yawdarko25@example.com,Tema,GH,01/20/2024 00:00
+GH-CUST-00565-DUP,Kwame,Darko,kwamedarko967@example.com,Ho,GH,26.05.2025
+GH-CUST-00077-DUP,Ama,Agyeman,AMA.AGYEMAN189@EXAMPLE.COM,Ho,GH,29-Jun-2025
+GH-CUST-00181-DUP,Yaw,Adu,yawadu422@example.com,Tema,GH,17.04.2024
+GH-CUST-00284-DUP,Kwame,Boateng,KWAME.BOATENG942@EXAMPLE.COM,Accra,GH,11/03/2023 00:00
+GH-CUST-00010-DUP,Gifty,Ofori,GIFTY.OFORI145@EXAMPLE.COM,Koforidua,GH,18.04.2023
+GH-CUST-00469-DUP,Esi,Appiah,esiappiah778@example.com,Kumasi,GH,10-Sep-2025
+GH-CUST-00078-DUP,Abena,Agyeman,abenaagyeman554@example.com,Cape Coast,GH,04/18/2023 00:00
+GH-CUST-00349-DUP,Kwabena,Adjei,kwabenaadjei837@example.com,Tema,GH,07/27/2025 00:00
+GH-CUST-00055-DUP,Comfort,Adjei,COMFORT.ADJEI351@EXAMPLE.COM,Sunyani,GH,2023-05-16 00:00:00
+GH-CUST-00118-DUP,Abena,Boateng,abenaboateng690@example.com,Tamale,GH,04.11.2024
+GH-CUST-00109-DUP,Gifty,Frimpong,GIFTY.FRIMPONG366@EXAMPLE.COM,Bolgatanga,GH,2023-04-05 00:00:00
+GH-CUST-00588-DUP,Yaa,Nkrumah,yaankrumah988@example.com,Sunyani,GH,15-Mar-2025
+GH-CUST-00369-DUP,Kwaku,Ofori,kwakuofori204@example.com,Cape Coast,GH,2024-02-18 00:00:00
+GH-CUST-00234-DUP,Nana,Adjei,NANA.ADJEI741@EXAMPLE.COM,Ho,GH,24.12.2023
+GH-CUST-00030-DUP,Adjoa,Agyeman,adjoaagyeman612@example.com,Tema,GH,12.11.2024
+GH-CUST-00212-DUP,Akosua,Darko,AKOSUA.DARKO674@EXAMPLE.COM,Accra,GH,22-Nov-2025
