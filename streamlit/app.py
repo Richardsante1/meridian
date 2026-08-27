@@ -76,6 +76,7 @@ all_regions = sorted(data["revenue_by_region"]["region"].unique())
 selected_regions = st.multiselect("Filter by region", all_regions, default=all_regions)
 
 rev = data["revenue_by_region"][data["revenue_by_region"]["region"].isin(selected_regions)]
+rev = rev.assign(avg_order_value_usd=rev["tracked_revenue_usd"] / rev["total_orders"])
 rfm = data["rfm_results"][data["rfm_results"]["region"].isin(selected_regions)]
 anomaly = data["anomaly_summary_by_region"][data["anomaly_summary_by_region"]["region"].isin(selected_regions)]
 
@@ -112,15 +113,41 @@ region_colors = {r: PEACH for r in all_regions}
 # ----------------------------------------------------------------------
 c1, c2, c3 = st.columns(3)
 
+# ----------------------------------------------------------------------
+# Row 1: revenue, refund rate, delivery
+# ----------------------------------------------------------------------
+c1, c2, c3 = st.columns(3)
+
 with c1:
     fig = px.bar(rev.sort_values("tracked_revenue_usd", ascending=False),
                  x="region", y="tracked_revenue_usd", title="Tracked Revenue by Region",
                  color_discrete_sequence=[PEACH])
     fig.update_layout(showlegend=False, yaxis_title="USD")
     st.plotly_chart(fig, use_container_width=True)
+    st.caption("BR and UK reflect full historical order volume (50K–99K orders each); "
+               "US, DE, and GH are calibrated synthetic samples (~2K orders each) — "
+               "totals aren't directly comparable across the two groups. See average "
+               "order value below for a fair per-order comparison.")
 
-with c2:
-    # Donut chart, matching the Power BI redesign - trades some precision
+c1b, c2b = st.columns(2)
+
+with c1b:
+    fig = px.bar(rev.sort_values("avg_order_value_usd", ascending=False),
+                 x="region", y="avg_order_value_usd", title="Average Order Value by Region",
+                 color_discrete_sequence=[PEACH])
+    fig.update_layout(showlegend=False, yaxis_title="USD")
+    st.plotly_chart(fig, use_container_width=True)
+
+with c2b:
+    fig = px.bar(rev.sort_values("total_orders", ascending=False),
+                 x="region", y="total_orders", title="Order Volume by Region (Sample Size)",
+                 color_discrete_sequence=[PEACH])
+    fig.update_layout(showlegend=False, yaxis_title="Orders")
+    st.plotly_chart(fig, use_container_width=True)
+
+st.divider()
+
+with c2:    # Donut chart, matching the Power BI redesign - trades some precision
     # for visual variety on the KPI-adjacent row; the underlying values
     # are unchanged from the bar-chart version.
     fig = px.pie(rev.sort_values("refund_rate", ascending=False),
