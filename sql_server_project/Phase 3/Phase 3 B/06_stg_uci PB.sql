@@ -23,7 +23,7 @@
 USE MeridianDB;
 GO
 
-CREATE OR ALTER VIEW staging.stg_uci_orders AS
+CREATE staging.stg_uci_orders AS
 SELECT
     Invoice                                             AS order_id,
     CAST([Customer ID] AS NVARCHAR(20))                 AS customer_id,
@@ -39,6 +39,7 @@ SELECT
     CASE WHEN LEFT(Invoice, 1) = 'C' THEN 'cancelled' ELSE 'completed' END AS order_status,
     'uci' AS source_system
 FROM raw.uci_online_retail_ii
+   WHERE LEFT(Invoice, 1) <> 'A'
 GROUP BY Invoice, [Customer ID];
 GO
 
