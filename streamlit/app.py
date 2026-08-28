@@ -121,8 +121,9 @@ c1, c2, c3 = st.columns(3)
 with c1:
     fig = px.bar(rev.sort_values("tracked_revenue_usd", ascending=False),
                  x="region", y="tracked_revenue_usd", title="Tracked Revenue by Region",
-                 color_discrete_sequence=[PEACH])
-    fig.update_layout(showlegend=False, yaxis_title="USD")
+                 color_discrete_sequence=[PEACH], text="tracked_revenue_usd")
+    fig.update_traces(texttemplate="$%{text:.2s}", textposition="outside")
+    fig.update_layout(showlegend=False, yaxis=dict(visible=False))
     st.plotly_chart(fig, use_container_width=True)
     st.caption("BR and UK reflect full historical order volume (50K–99K orders each); "
                "US, DE, and GH are calibrated synthetic samples (~2K orders each) — "
@@ -134,20 +135,23 @@ c1b, c2b = st.columns(2)
 with c1b:
     fig = px.bar(rev.sort_values("avg_order_value_usd", ascending=False),
                  x="region", y="avg_order_value_usd", title="Average Order Value by Region",
-                 color_discrete_sequence=[PEACH])
-    fig.update_layout(showlegend=False, yaxis_title="USD")
+                 color_discrete_sequence=[PEACH], text="avg_order_value_usd")
+    fig.update_traces(texttemplate="$%{text:.0f}", textposition="outside")
+    fig.update_layout(showlegend=False, yaxis=dict(visible=False))
     st.plotly_chart(fig, use_container_width=True)
 
 with c2b:
     fig = px.bar(rev.sort_values("total_orders", ascending=False),
                  x="region", y="total_orders", title="Order Volume by Region (Sample Size)",
-                 color_discrete_sequence=[PEACH])
-    fig.update_layout(showlegend=False, yaxis_title="Orders")
+                 color_discrete_sequence=[PEACH], text="total_orders")
+    fig.update_traces(texttemplate="%{text:.2s}", textposition="outside")
+    fig.update_layout(showlegend=False, yaxis=dict(visible=False))
     st.plotly_chart(fig, use_container_width=True)
 
 st.divider()
 
-with c2:    # Donut chart, matching the Power BI redesign - trades some precision
+with c2:
+    # Donut chart, matching the Power BI redesign - trades some precision
     # for visual variety on the KPI-adjacent row; the underlying values
     # are unchanged from the bar-chart version.
     fig = px.pie(rev.sort_values("refund_rate", ascending=False),
@@ -173,24 +177,28 @@ with c4:
     bucket = data["review_by_delivery_bucket"].sort_values("bucket_sort_order")
     fig = px.bar(bucket, x="delivery_bucket", y="avg_review_score",
                  title="Review Score by Delivery Time", range_y=[1, 5],
-                 color_discrete_sequence=[PEACH])
+                 color_discrete_sequence=[PEACH], text="avg_review_score")
+    fig.update_traces(texttemplate="%{text:.1f}", textposition="outside")
+    fig.update_layout(yaxis=dict(visible=False))
     st.plotly_chart(fig, use_container_width=True)
 
 with c5:
     seg_counts = rfm["segment"].value_counts().reset_index()
     seg_counts.columns = ["segment", "count"]
     fig = px.bar(seg_counts.sort_values("count"), x="count", y="segment", orientation="h",
-                 title="Customers by RFM Segment", color_discrete_sequence=[PEACH])
+                 title="Customers by RFM Segment", color_discrete_sequence=[PEACH], text="count")
+    fig.update_traces(texttemplate="%{text:.2s}", textposition="outside")
+    fig.update_layout(xaxis=dict(visible=False))
     st.plotly_chart(fig, use_container_width=True)
 
 with c6:
     forecast = data["demand_forecast_summary"][data["demand_forecast_summary"]["region"].isin(selected_regions)]
     fig = px.bar(forecast.sort_values("next_3_months_total", ascending=False),
                  x="region", y="next_3_months_total", title="Next-Quarter Forecast by Region",
-                 color_discrete_sequence=[PEACH])
-    fig.update_layout(yaxis_title="orders")
+                 color_discrete_sequence=[PEACH], text="next_3_months_total")
+    fig.update_traces(texttemplate="%{text:.2s}", textposition="outside")
+    fig.update_layout(yaxis=dict(visible=False))
     st.plotly_chart(fig, use_container_width=True)
-
 st.divider()
 st.caption(
     "Real data: Brazil (Olist, 2016-2018), UK (UCI Online Retail II, 2009-2011). "
