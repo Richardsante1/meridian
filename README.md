@@ -136,4 +136,4 @@ This project treats honest disclosure as part of the deliverable, not an afterth
 
 ## Author
 
-Built by [Richard Asante](https://github.com/Richardsante1) as a portfolio data engineering project.
+Built by [Richard Asante](https://github.com/Richardsante1) as a portfolio data project.
