@@ -8,6 +8,35 @@
 
 ---
 
+## The Problem
+
+Companies expanding into new markets face a data maturity gap: established
+regions have years of transaction history, while newer markets don't yet
+have comparable depth. Leadership still wants one unified view of
+performance across every region — but presenting incomplete data as if it
+were equally mature risks driving the wrong decisions.
+
+MERIDIAN models this exact scenario: real historical transaction data for
+two established markets (Brazil, UK) alongside calibrated synthetic data
+for three emerging ones (US, Germany, Ghana), unified into a single
+currency-normalized reporting layer — with real vs. synthetic explicitly
+disclosed rather than blended invisibly.
+
+**A concrete example of why this matters:** partway through the build, the
+revenue-by-region chart showed the US, Germany, and Ghana at near-zero
+revenue next to Brazil and the UK — the kind of chart that could lead a
+stakeholder to conclude an expansion was failing. Investigation ruled that
+out: average order value was comparable across all five regions ($26–$80);
+the real driver was that the synthetic regions simply had far fewer
+recorded orders (~2,000 each) than the established ones (50,000–99,000).
+This wasn't a performance problem, it was a sample-size problem that a
+totals-only chart was hiding. The fix was to disclose it directly — an
+average-order-value view for a fair per-region comparison, plus an explicit
+note on the volume gap — rather than quietly inflating synthetic order
+counts to make the chart "look right." The full investigation, including
+every diagnostic query used, is documented in
+[`PROJECT_LOG.md`](./PROJECT_LOG.md).
+
 ## Overview
 
 MERIDIAN is a portfolio data engineering project that simulates a real analytics function for a global e-commerce company operating across five regions: **Brazil, the UK, the US, Germany, and Ghana.**
