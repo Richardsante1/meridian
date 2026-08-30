@@ -39,7 +39,7 @@ every diagnostic query used, is documented in
 
 ## Overview
 
-MERIDIAN is a portfolio data analyst project that simulates a real analytics function for a global e-commerce company operating across five regions: **Brazil, the UK, the US, Germany, and Ghana.**
+MERIDIAN is an analytics engineering portfolio  project that simulates a real analytics function for a global e-commerce company operating across five regions: **Brazil, the UK, the US, Germany, and Ghana.**
 
 Two of those regions run on genuine, publicly available transaction data. The other three are built from a calibrated synthetic data generator, designed to be statistically plausible rather than arbitrary — same approach a data team would take when expanding into a market before a full data warehouse exists there.
 
