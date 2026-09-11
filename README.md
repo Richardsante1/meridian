@@ -1,58 +1,185 @@
-# MERIDIAN — Global Commerce Intelligence
+<div align="center">
+<img src="assets/latitude_logo.svg" width="440" alt="Latitude Retail Co. logo"/>
 
-**A multi-region e-commerce analytics platform, built end-to-end** — real-world datasets, calibrated synthetic data, a SQL Server ELT pipeline, and dual delivery through Power BI and a live public dashboard.
+# MERIDIAN — Global Commerce Intelligence
+*Internal analytics platform, Data & Analytics Engineering*
 
 [![Live Dashboard](https://img.shields.io/badge/Live%20Dashboard-Streamlit-FF4B4B)](https://meridian-ed8vjruy3zxytbr4buwv2v.streamlit.app)
+[![Build](https://img.shields.io/badge/Pipeline-SQL%20Server%20ELT-2E6FDB)](#architecture)
+[![Status](https://img.shields.io/badge/Status-Complete-4CAF50)](./PROJECT_LOG.md)
 
-**[→ View the live dashboard](https://meridian-ed8vjruy3zxytbr4buwv2v.streamlit.app)**
+**[→ View the live dashboard](https://meridian-ed8vjruy3zxytbr4buwv2v.streamlit.app)** · **[→ Full build log](./PROJECT_LOG.md)**
+
+</div>
 
 ---
 
-## The Problem
+> **A note on framing:** this project models Richard's work as a Data &
+> Analytics Engineer at **Latitude Retail Co.**, a fictional e-commerce
+> company used purely as a narrative device. No such company exists — the
+> business problem, the data, and the technical build are all real; only
+> the employer is invented, and it's disclosed as such here rather than
+> left for someone to assume.
 
-Companies expanding into new markets face a data maturity gap: established
-regions have years of transaction history, while newer markets don't yet
-have comparable depth. Leadership still wants one unified view of
-performance across every region — but presenting incomplete data as if it
-were equally mature risks driving the wrong decisions.
+## Table of Contents
 
-MERIDIAN models this exact scenario: real historical transaction data for
-two established markets (Brazil, UK) alongside calibrated synthetic data
-for three emerging ones (US, Germany, Ghana), unified into a single
-currency-normalized reporting layer — with real vs. synthetic explicitly
-disclosed rather than blended invisibly.
+- [Business Context](#business-context)
+- [Northstar Metrics](#northstar-metrics)
+- [Executive Summary](#executive-summary)
+- [Insights Deep-Dive](#insights-deep-dive)
+- [Dataset Structure](#dataset-structure)
+- [Architecture](#architecture)
+- [Tech Stack](#tech-stack)
+- [Data Sources](#data-sources)
+- [Repository Structure](#repository-structure)
+- [Getting Started](#getting-started)
+- [Dashboards & Sample Insights](#dashboards--sample-insights)
+- [Data Transparency & Known Limitations](#data-transparency--known-limitations)
 
-**A concrete example of why this matters:** partway through the build, the
-revenue-by-region chart showed the US, Germany, and Ghana at near-zero
-revenue next to Brazil and the UK — the kind of chart that could lead a
-stakeholder to conclude an expansion was failing. Investigation ruled that
-out: average order value was comparable across all five regions ($26–$80);
-the real driver was that the synthetic regions simply had far fewer
-recorded orders (~2,000 each) than the established ones (50,000–99,000).
-This wasn't a performance problem, it was a sample-size problem that a
-totals-only chart was hiding. The fix was to disclose it directly — an
-average-order-value view for a fair per-region comparison, plus an explicit
-note on the volume gap — rather than quietly inflating synthetic order
-counts to make the chart "look right." The full investigation, including
-every diagnostic query used, is documented in
-[`PROJECT_LOG.md`](./PROJECT_LOG.md).
+---
 
-## Overview
+## Business Context
 
-MERIDIAN is a portfolio data engineering project that simulates a real analytics function for a global e-commerce company operating across five regions: **Brazil, the UK, the US, Germany, and Ghana.**
+**Role:** Data & Analytics Engineer, reporting to the Head of Operations at
+**Latitude Retail Co.**
 
-Two of those regions run on genuine, publicly available transaction data. The other three are built from a calibrated synthetic data generator, designed to be statistically plausible rather than arbitrary — same approach a data team would take when expanding into a market before a full data warehouse exists there.
+Latitude Retail Co. operates in two established markets — **Brazil** and
+the **UK** — with years of transaction history, and has recently expanded
+into three newer markets: the **US**, **Germany**, and **Ghana**.
+Leadership wants a single, unified view of performance across all five
+regions to guide the next phase of expansion.
 
-The project covers the full pipeline a data engineer or analytics engineer would actually own: ingesting raw data, cleaning and modeling it through a proper ELT layer, normalizing currencies with live FX rates, and delivering the result through two independent reporting layers.
+That request creates a real tension: the newer markets don't yet have
+comparable data depth to the established ones, but a dashboard that treats
+all five regions as equally mature risks leading leadership to the wrong
+conclusion — reading a *data gap* as a *performance failure*.
 
-## Key Features
+MERIDIAN — the platform built to answer that brief — combines two
+deliberately different data-engineering challenges, rather than treating
+synthetic data as a stand-in for something missing:
 
-- **Five-region, currency-normalized reporting** — all revenue figures converted to USD using fetched exchange rates, not hardcoded conversions
-- **Real + synthetic data, clearly separated** — no attempt to disguise which regions are real; the dashboards actively disclose this
-- **Full ELT pipeline in SQL Server** — raw → staging → marts, with staging responsible for cleaning messy source data (inconsistent dates, cancellation conventions, non-order records) so marts stays clean
-- **Seven analysis notebooks** covering revenue, cohort retention, RFM segmentation, logistics/delivery performance, marketing attribution, demand forecasting, and anomaly detection
-- **Two independent BI layers** — a live-connected Power BI report and a publicly deployed Streamlit dashboard, so the same verified numbers are explorable two different ways
-- **A documented debugging history** — every real bug hit during the build (and how it was found and fixed) is logged in [`PROJECT_LOG.md`](./PROJECT_LOG.md), rather than only showing the finished result
+- **Brazil and the UK** run on real, messy, publicly available transaction
+  data. This is where the ELT cleaning, staging logic, and the data-quality
+  investigation documented below actually happened.
+- **The US, Germany, and Ghana** run on a calibrated synthetic dataset,
+  built to demonstrate a second, equally real skill: producing
+  production-realistic data for a market that doesn't have transaction
+  history yet — a genuine, common need before a new market's data warehouse
+  exists.
+
+Both halves are disclosed openly throughout the reporting, rather than
+blended into a single undifferentiated total.
+
+At current scale, the dataset spans:
+
+| Metric | Value |
+|---|---|
+| Total orders | 159,114 |
+| Total customers | 103,130 |
+| Tracked revenue | ~$32M USD ($31.7M real · $361K synthetic) |
+| Regions covered | 5 |
+| Time span | 2009–2025 (varies by region) |
+
+## Northstar Metrics
+
+The analysis is organized around five focus areas:
+
+- **Sales trends** — revenue, order volume, and average order value, tracked across regions and normalized to USD
+- **Customer segmentation (RFM)** — identifying loyal, at-risk, new, and lost customers to inform retention strategy
+- **Logistics performance** — delivery time by region and its relationship to customer review scores
+- **Demand forecasting** — projected order volume for the next quarter, by region
+- **Anomaly detection** — automated flagging of irregular orders for review
+
+
+## Executive Summary
+
+<div align="center">
+<img src="Analysis/revenue_by_region.png" width="600" alt="Revenue by region"/>
+</div>
+
+**Key findings:**
+
+1. **Revenue is concentrated in the two established markets** — the UK and
+   Brazil account for the large majority of tracked revenue — but this
+   reflects **order volume, not underperformance** in the newer markets.
+   Average order value is actually comparable across all five regions
+   ($26–$80 USD). See the [Insights Deep-Dive](#insights-deep-dive) below
+   for the full investigation.
+2. **Refund rates vary meaningfully by region** (1.7%–25.2%), warranting
+   region-specific follow-up rather than a single blended target.
+3. **Delivery performance correlates with review scores** — orders
+   delivered in 0–10 days average a ~4.3 review score; orders taking 20+
+   days drop to ~3.1.
+4. **Customer segmentation (RFM)** shows Loyal Customers as the largest
+   single segment (~33K), with a meaningful At-Risk and Lost population
+   worth targeted retention effort.
+
+## Insights Deep-Dive
+
+### Revenue by Region: a sample-size story, not a performance one
+
+**The signal.** Partway through the build, the revenue-by-region chart
+showed the US, Germany, and Ghana at close to zero next to Brazil and the
+UK — the kind of pattern that, read at face value, would suggest the
+expansion into those three markets was failing.
+
+**The investigation.** Rather than take the chart at face value, a
+diagnostic query grouped orders by region, source system, and currency,
+comparing order count against average and total order value in both local
+currency and USD. This immediately ruled out a currency-conversion bug —
+average order value was reasonable and broadly comparable across all five
+regions ($26–$80 USD). The real driver was order **volume**: the two
+established regions had 50,000–99,000 orders each, versus ~2,000 each for
+the three newer markets — a scale gap large enough to make the newer
+markets disappear next to the established ones on any totals chart,
+independent of how each individual order performed.
+
+**A related finding, checked rather than assumed.** The UK data also
+contained one striking outlier — a single ~$230,000 order. Rather than
+treat it as a data error, the top 20 UK orders by value were pulled
+directly; the outlier turned out to be paired with an identical negative
+value a few minutes later, under the same customer, matching the source
+dataset's own documented cancellation convention. Legitimate, not a bug —
+confirmed with data rather than assumed away.
+
+**The fix.** Rather than artificially inflating synthetic order volume to
+make the chart "look balanced," the decision was to disclose the gap
+directly: an average-order-value view alongside the totals (for a fair
+per-region comparison regardless of sample size), plus an explicit note on
+the volume difference in both dashboards. A separate, smaller data-quality
+issue found during the same investigation — six UK records that were bank
+adjustment entries, not real orders — was excluded at the source in the
+staging layer.
+
+Full diagnostic queries, SQL fixes, and verification steps are documented
+in [`PROJECT_LOG.md`](./PROJECT_LOG.md).
+
+## Dataset Structure
+
+```mermaid
+erDiagram
+    DIM_CUSTOMERS ||--o{ FCT_ORDERS : places
+    FCT_ORDERS {
+        string order_id PK
+        string customer_id FK
+        string region
+        string currency_code
+        float amount_local
+        float amount_usd
+        string product_category
+        date order_date
+        date delivered_date
+        bit is_refunded
+        date refund_date
+        int review_score
+        string order_status
+        string source_system
+    }
+```
+
+`fct_orders` is the core fact table all reporting reads from. Full schema
+for `dim_customers` and the reporting-layer views is in
+[`sql_server_project/Phase 3/`](./sql_server_project/Phase%203/).
 
 ## Architecture
 
@@ -109,6 +236,7 @@ The order-volume gap between real and synthetic regions is intentional and discl
 
 ```
 meridian/
+├── assets/                    # Logo and README images
 ├── data_generation/          # Synthetic data generator, FX rate fetcher
 ├── sql_server_project/
 │   ├── Phase 3/               # raw → staging → marts SQL
@@ -137,7 +265,7 @@ cd meridian
 5. To run the dashboard locally:
    ```bash
    pip install -r streamlit/requirements.txt
-   streamlit run streamlit/app.py
+   python -m streamlit run streamlit/app.py
    ```
 
 ## Dashboards & Sample Insights
@@ -163,6 +291,10 @@ This project treats honest disclosure as part of the deliverable, not an afterth
 - **Marketing attribution data is illustrative only** — it's built and functional, but its underlying spend figures have no real-world grounding, so it's intentionally excluded from the main dashboards.
 - **Every bug found during the build — and how it was diagnosed and fixed — is documented in [`PROJECT_LOG.md`](./PROJECT_LOG.md)**, including a full diagnostic query appendix for anyone who wants to reproduce the checks themselves.
 
-## Author
+---
 
-Built by [Richard Asante](https://github.com/Richardsante1) as a portfolio data project.
+<div align="center">
+
+Built by [Richard Asante](https://github.com/Richardsante1) as a portfolio data engineering project.
+
+</div>
