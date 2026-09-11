@@ -40,8 +40,12 @@
 
 ## Business Context
 
+<<<<<<< HEAD
 **Role:** Data & Analytics Engineer, reporting to the Head of Operations at
 **Latitude Retail Co.**
+=======
+MERIDIAN is an analytics engineering portfolio  project that simulates a real analytics function for a global e-commerce company operating across five regions: **Brazil, the UK, the US, Germany, and Ghana.**
+>>>>>>> 1a7ef99302f1863e04e58de311e3262446fa9a8a
 
 Latitude Retail Co. operates in two established markets — **Brazil** and
 the **UK** — with years of transaction history, and has recently expanded
